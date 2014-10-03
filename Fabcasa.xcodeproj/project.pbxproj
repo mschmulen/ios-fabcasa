@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99CC6E219DCB33D00063DD0 /* Fabcasa.h in Headers */ = {isa = PBXBuildFile; fileRef = C99CC6E119DCB33D00063DD0 /* Fabcasa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C99CC6EC19DCB33D00063DD0 /* FabcasaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC6EB19DCB33D00063DD0 /* FabcasaTests.swift */; };
+		C99CC7E419DDE4F600063DD0 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7E019DDE4F600063DD0 /* Graph.swift */; };
+		C99CC7E519DDE4F600063DD0 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7E019DDE4F600063DD0 /* Graph.swift */; };
+		C99CC7E619DDE4F600063DD0 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7E119DDE4F600063DD0 /* LinkedList.swift */; };
+		C99CC7E719DDE4F600063DD0 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7E119DDE4F600063DD0 /* LinkedList.swift */; };
+		C99CC7E819DDE4F600063DD0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7E219DDE4F600063DD0 /* Queue.swift */; };
+		C99CC7E919DDE4F600063DD0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7E219DDE4F600063DD0 /* Queue.swift */; };
+		C99CC7EA19DDE4F600063DD0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7E319DDE4F600063DD0 /* Stack.swift */; };
+		C99CC7EB19DDE4F600063DD0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7E319DDE4F600063DD0 /* Stack.swift */; };
+		C99CC7EE19DDE50400063DD0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7ED19DDE50400063DD0 /* DateExtension.swift */; };
+		C99CC7EF19DDE50400063DD0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7ED19DDE50400063DD0 /* DateExtension.swift */; };
+		C99CC80A19DDE51400063DD0 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7F219DDE51400063DD0 /* AnimationViewController.swift */; };
+		C99CC80B19DDE51400063DD0 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7F219DDE51400063DD0 /* AnimationViewController.swift */; };
+		C99CC80C19DDE51400063DD0 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7F319DDE51400063DD0 /* AnimationViewController.xib */; };
+		C99CC80D19DDE51400063DD0 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7F319DDE51400063DD0 /* AnimationViewController.xib */; };
+		C99CC80E19DDE51400063DD0 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7F419DDE51400063DD0 /* UIViewExtension.swift */; };
+		C99CC80F19DDE51400063DD0 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7F419DDE51400063DD0 /* UIViewExtension.swift */; };
+		C99CC81019DDE51400063DD0 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7F719DDE51400063DD0 /* MapKitViewController.swift */; };
+		C99CC81119DDE51400063DD0 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7F719DDE51400063DD0 /* MapKitViewController.swift */; };
+		C99CC81219DDE51400063DD0 /* MapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7F819DDE51400063DD0 /* MapKitViewController.xib */; };
+		C99CC81319DDE51400063DD0 /* MapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7F819DDE51400063DD0 /* MapKitViewController.xib */; };
+		C99CC81419DDE51400063DD0 /* MessagingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7FA19DDE51400063DD0 /* MessagingTableViewCell.swift */; };
+		C99CC81519DDE51400063DD0 /* MessagingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7FA19DDE51400063DD0 /* MessagingTableViewCell.swift */; };
+		C99CC81619DDE51400063DD0 /* MessagingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7FB19DDE51400063DD0 /* MessagingTableViewCell.xib */; };
+		C99CC81719DDE51400063DD0 /* MessagingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7FB19DDE51400063DD0 /* MessagingTableViewCell.xib */; };
+		C99CC81819DDE51400063DD0 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7FC19DDE51400063DD0 /* MessagingViewController.swift */; };
+		C99CC81919DDE51400063DD0 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7FC19DDE51400063DD0 /* MessagingViewController.swift */; };
+		C99CC81A19DDE51400063DD0 /* MessagingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7FD19DDE51400063DD0 /* MessagingViewController.xib */; };
+		C99CC81B19DDE51400063DD0 /* MessagingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7FD19DDE51400063DD0 /* MessagingViewController.xib */; };
+		C99CC81C19DDE51400063DD0 /* MFMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7FF19DDE51400063DD0 /* MFMailViewController.swift */; };
+		C99CC81D19DDE51400063DD0 /* MFMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7FF19DDE51400063DD0 /* MFMailViewController.swift */; };
+		C99CC81E19DDE51400063DD0 /* MFMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC80019DDE51400063DD0 /* MFMailViewController.xib */; };
+		C99CC81F19DDE51400063DD0 /* MFMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC80019DDE51400063DD0 /* MFMailViewController.xib */; };
+		C99CC82019DDE51400063DD0 /* MPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC80219DDE51400063DD0 /* MPCViewController.swift */; };
+		C99CC82119DDE51400063DD0 /* MPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC80219DDE51400063DD0 /* MPCViewController.swift */; };
+		C99CC82219DDE51400063DD0 /* MPCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC80319DDE51400063DD0 /* MPCViewController.xib */; };
+		C99CC82319DDE51400063DD0 /* MPCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC80319DDE51400063DD0 /* MPCViewController.xib */; };
+		C99CC82419DDE51400063DD0 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC80519DDE51400063DD0 /* PickerViewController.swift */; };
+		C99CC82519DDE51400063DD0 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC80519DDE51400063DD0 /* PickerViewController.swift */; };
+		C99CC82619DDE51400063DD0 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC80619DDE51400063DD0 /* PickerViewController.xib */; };
+		C99CC82719DDE51400063DD0 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC80619DDE51400063DD0 /* PickerViewController.xib */; };
+		C99CC82819DDE51400063DD0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC80819DDE51400063DD0 /* TimerViewController.swift */; };
+		C99CC82919DDE51400063DD0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC80819DDE51400063DD0 /* TimerViewController.swift */; };
+		C99CC82A19DDE51400063DD0 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC80919DDE51400063DD0 /* TimerViewController.xib */; };
+		C99CC82B19DDE51400063DD0 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC80919DDE51400063DD0 /* TimerViewController.xib */; };
+		C99CC82D19DDE68B00063DD0 /* FabcasaTestsDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC82C19DDE68B00063DD0 /* FabcasaTestsDataStructures.swift */; };
+		C99CC82F19DDE6A700063DD0 /* FabcasaTestsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC82E19DDE6A700063DD0 /* FabcasaTestsExtensions.swift */; };
+		C9BD0DEC19DDEA2E00878307 /* FabcasaTestsViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0DEB19DDEA2E00878307 /* FabcasaTestsViewControllers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C99CC6DC19DCB33D00063DD0 /* Fabcasa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fabcasa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99CC6E019DCB33D00063DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99CC6E119DCB33D00063DD0 /* Fabcasa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fabcasa.h; sourceTree = "<group>"; };
+		C99CC6E719DCB33D00063DD0 /* FabcasaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabcasaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99CC6EA19DCB33D00063DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99CC6EB19DCB33D00063DD0 /* FabcasaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabcasaTests.swift; sourceTree = "<group>"; };
+		C99CC7E019DDE4F600063DD0 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		C99CC7E119DDE4F600063DD0 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		C99CC7E219DDE4F600063DD0 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		C99CC7E319DDE4F600063DD0 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		C99CC7ED19DDE50400063DD0 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C99CC7F219DDE51400063DD0 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		C99CC7F319DDE51400063DD0 /* AnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
+		C99CC7F419DDE51400063DD0 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C99CC7F719DDE51400063DD0 /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		C99CC7F819DDE51400063DD0 /* MapKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapKitViewController.xib; sourceTree = "<group>"; };
+		C99CC7FA19DDE51400063DD0 /* MessagingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingTableViewCell.swift; sourceTree = "<group>"; };
+		C99CC7FB19DDE51400063DD0 /* MessagingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagingTableViewCell.xib; sourceTree = "<group>"; };
+		C99CC7FC19DDE51400063DD0 /* MessagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		C99CC7FD19DDE51400063DD0 /* MessagingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagingViewController.xib; sourceTree = "<group>"; };
+		C99CC7FF19DDE51400063DD0 /* MFMailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFMailViewController.swift; sourceTree = "<group>"; };
+		C99CC80019DDE51400063DD0 /* MFMailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFMailViewController.xib; sourceTree = "<group>"; };
+		C99CC80219DDE51400063DD0 /* MPCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCViewController.swift; sourceTree = "<group>"; };
+		C99CC80319DDE51400063DD0 /* MPCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPCViewController.xib; sourceTree = "<group>"; };
+		C99CC80519DDE51400063DD0 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		C99CC80619DDE51400063DD0 /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		C99CC80819DDE51400063DD0 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		C99CC80919DDE51400063DD0 /* TimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		C99CC82C19DDE68B00063DD0 /* FabcasaTestsDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabcasaTestsDataStructures.swift; sourceTree = "<group>"; };
+		C99CC82E19DDE6A700063DD0 /* FabcasaTestsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabcasaTestsExtensions.swift; sourceTree = "<group>"; };
+		C9BD0DEB19DDEA2E00878307 /* FabcasaTestsViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabcasaTestsViewControllers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99CC6D819DCB33D00063DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99CC6E419DCB33D00063DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99CC6D219DCB33D00063DD0 = {
+			isa = PBXGroup;
+			children = (
+				C99CC6DE19DCB33D00063DD0 /* Fabcasa */,
+				C99CC6E819DCB33D00063DD0 /* FabcasaTests */,
+				C99CC6DD19DCB33D00063DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99CC6DD19DCB33D00063DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC6DC19DCB33D00063DD0 /* Fabcasa.framework */,
+				C99CC6E719DCB33D00063DD0 /* FabcasaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99CC6DE19DCB33D00063DD0 /* Fabcasa */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7F019DDE51400063DD0 /* ViewControllers */,
+				C99CC7EC19DDE50400063DD0 /* Extensions */,
+				C99CC7DF19DDE4F600063DD0 /* DataStructures */,
+				C99CC6E119DCB33D00063DD0 /* Fabcasa.h */,
+				C99CC6DF19DCB33D00063DD0 /* Supporting Files */,
+			);
+			path = Fabcasa;
+			sourceTree = "<group>";
+		};
+		C99CC6DF19DCB33D00063DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC6E019DCB33D00063DD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99CC6E819DCB33D00063DD0 /* FabcasaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC6EB19DCB33D00063DD0 /* FabcasaTests.swift */,
+				C9BD0DEB19DDEA2E00878307 /* FabcasaTestsViewControllers.swift */,
+				C99CC82C19DDE68B00063DD0 /* FabcasaTestsDataStructures.swift */,
+				C99CC82E19DDE6A700063DD0 /* FabcasaTestsExtensions.swift */,
+				C99CC6E919DCB33D00063DD0 /* Supporting Files */,
+			);
+			path = FabcasaTests;
+			sourceTree = "<group>";
+		};
+		C99CC6E919DCB33D00063DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC6EA19DCB33D00063DD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99CC7DF19DDE4F600063DD0 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7E019DDE4F600063DD0 /* Graph.swift */,
+				C99CC7E119DDE4F600063DD0 /* LinkedList.swift */,
+				C99CC7E219DDE4F600063DD0 /* Queue.swift */,
+				C99CC7E319DDE4F600063DD0 /* Stack.swift */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		C99CC7EC19DDE50400063DD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7ED19DDE50400063DD0 /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C99CC7F019DDE51400063DD0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7F119DDE51400063DD0 /* AnimationViewController */,
+				C99CC7F519DDE51400063DD0 /* IBeaconViewController */,
+				C99CC7F619DDE51400063DD0 /* MapKitViewController */,
+				C99CC7F919DDE51400063DD0 /* MessagingViewController */,
+				C99CC7FE19DDE51400063DD0 /* MFMailViewController */,
+				C99CC80119DDE51400063DD0 /* MPCViewController */,
+				C99CC80419DDE51400063DD0 /* PickerViewController */,
+				C99CC80719DDE51400063DD0 /* TimerViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C99CC7F119DDE51400063DD0 /* AnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7F219DDE51400063DD0 /* AnimationViewController.swift */,
+				C99CC7F319DDE51400063DD0 /* AnimationViewController.xib */,
+				C99CC7F419DDE51400063DD0 /* UIViewExtension.swift */,
+			);
+			path = AnimationViewController;
+			sourceTree = "<group>";
+		};
+		C99CC7F519DDE51400063DD0 /* IBeaconViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IBeaconViewController;
+			sourceTree = "<group>";
+		};
+		C99CC7F619DDE51400063DD0 /* MapKitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7F719DDE51400063DD0 /* MapKitViewController.swift */,
+				C99CC7F819DDE51400063DD0 /* MapKitViewController.xib */,
+			);
+			path = MapKitViewController;
+			sourceTree = "<group>";
+		};
+		C99CC7F919DDE51400063DD0 /* MessagingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7FA19DDE51400063DD0 /* MessagingTableViewCell.swift */,
+				C99CC7FB19DDE51400063DD0 /* MessagingTableViewCell.xib */,
+				C99CC7FC19DDE51400063DD0 /* MessagingViewController.swift */,
+				C99CC7FD19DDE51400063DD0 /* MessagingViewController.xib */,
+			);
+			path = MessagingViewController;
+			sourceTree = "<group>";
+		};
+		C99CC7FE19DDE51400063DD0 /* MFMailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7FF19DDE51400063DD0 /* MFMailViewController.swift */,
+				C99CC80019DDE51400063DD0 /* MFMailViewController.xib */,
+			);
+			path = MFMailViewController;
+			sourceTree = "<group>";
+		};
+		C99CC80119DDE51400063DD0 /* MPCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC80219DDE51400063DD0 /* MPCViewController.swift */,
+				C99CC80319DDE51400063DD0 /* MPCViewController.xib */,
+			);
+			path = MPCViewController;
+			sourceTree = "<group>";
+		};
+		C99CC80419DDE51400063DD0 /* PickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC80519DDE51400063DD0 /* PickerViewController.swift */,
+				C99CC80619DDE51400063DD0 /* PickerViewController.xib */,
+			);
+			path = PickerViewController;
+			sourceTree = "<group>";
+		};
+		C99CC80719DDE51400063DD0 /* TimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC80819DDE51400063DD0 /* TimerViewController.swift */,
+				C99CC80919DDE51400063DD0 /* TimerViewController.xib */,
+			);
+			path = TimerViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C99CC6D919DCB33D00063DD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99CC6E219DCB33D00063DD0 /* Fabcasa.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C99CC6DB19DCB33D00063DD0 /* Fabcasa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99CC6EF19DCB33D00063DD0 /* Build configuration list for PBXNativeTarget "Fabcasa" */;
+			buildPhases = (
+				C99CC6D719DCB33D00063DD0 /* Sources */,
+				C99CC6D819DCB33D00063DD0 /* Frameworks */,
+				C99CC6D919DCB33D00063DD0 /* Headers */,
+				C99CC6DA19DCB33D00063DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fabcasa;
+			productName = Fabcasa;
+			productReference = C99CC6DC19DCB33D00063DD0 /* Fabcasa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C99CC6E619DCB33D00063DD0 /* FabcasaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99CC6F219DCB33D00063DD0 /* Build configuration list for PBXNativeTarget "FabcasaTests" */;
+			buildPhases = (
+				C99CC6E319DCB33D00063DD0 /* Sources */,
+				C99CC6E419DCB33D00063DD0 /* Frameworks */,
+				C99CC6E519DCB33D00063DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FabcasaTests;
+			productName = FabcasaTests;
+			productReference = C99CC6E719DCB33D00063DD0 /* FabcasaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99CC6D319DCB33D00063DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Matthew Schmulen";
+				TargetAttributes = {
+					C99CC6DB19DCB33D00063DD0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C99CC6E619DCB33D00063DD0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C99CC6D619DCB33D00063DD0 /* Build configuration list for PBXProject "Fabcasa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C99CC6D219DCB33D00063DD0;
+			productRefGroup = C99CC6DD19DCB33D00063DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99CC6DB19DCB33D00063DD0 /* Fabcasa */,
+				C99CC6E619DCB33D00063DD0 /* FabcasaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99CC6DA19DCB33D00063DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99CC82A19DDE51400063DD0 /* TimerViewController.xib in Resources */,
+				C99CC81619DDE51400063DD0 /* MessagingTableViewCell.xib in Resources */,
+				C99CC81E19DDE51400063DD0 /* MFMailViewController.xib in Resources */,
+				C99CC81A19DDE51400063DD0 /* MessagingViewController.xib in Resources */,
+				C99CC81219DDE51400063DD0 /* MapKitViewController.xib in Resources */,
+				C99CC80C19DDE51400063DD0 /* AnimationViewController.xib in Resources */,
+				C99CC82619DDE51400063DD0 /* PickerViewController.xib in Resources */,
+				C99CC82219DDE51400063DD0 /* MPCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99CC6E519DCB33D00063DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99CC82B19DDE51400063DD0 /* TimerViewController.xib in Resources */,
+				C99CC81719DDE51400063DD0 /* MessagingTableViewCell.xib in Resources */,
+				C99CC81F19DDE51400063DD0 /* MFMailViewController.xib in Resources */,
+				C99CC81B19DDE51400063DD0 /* MessagingViewController.xib in Resources */,
+				C99CC81319DDE51400063DD0 /* MapKitViewController.xib in Resources */,
+				C99CC80D19DDE51400063DD0 /* AnimationViewController.xib in Resources */,
+				C99CC82719DDE51400063DD0 /* PickerViewController.xib in Resources */,
+				C99CC82319DDE51400063DD0 /* MPCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99CC6D719DCB33D00063DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99CC7E419DDE4F600063DD0 /* Graph.swift in Sources */,
+				C99CC7EE19DDE50400063DD0 /* DateExtension.swift in Sources */,
+				C99CC81019DDE51400063DD0 /* MapKitViewController.swift in Sources */,
+				C99CC82419DDE51400063DD0 /* PickerViewController.swift in Sources */,
+				C99CC81C19DDE51400063DD0 /* MFMailViewController.swift in Sources */,
+				C99CC81819DDE51400063DD0 /* MessagingViewController.swift in Sources */,
+				C99CC82019DDE51400063DD0 /* MPCViewController.swift in Sources */,
+				C99CC7EA19DDE4F600063DD0 /* Stack.swift in Sources */,
+				C99CC80A19DDE51400063DD0 /* AnimationViewController.swift in Sources */,
+				C99CC80E19DDE51400063DD0 /* UIViewExtension.swift in Sources */,
+				C99CC82819DDE51400063DD0 /* TimerViewController.swift in Sources */,
+				C99CC81419DDE51400063DD0 /* MessagingTableViewCell.swift in Sources */,
+				C99CC7E819DDE4F600063DD0 /* Queue.swift in Sources */,
+				C99CC7E619DDE4F600063DD0 /* LinkedList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99CC6E319DCB33D00063DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BD0DEC19DDEA2E00878307 /* FabcasaTestsViewControllers.swift in Sources */,
+				C99CC7E519DDE4F600063DD0 /* Graph.swift in Sources */,
+				C99CC82119DDE51400063DD0 /* MPCViewController.swift in Sources */,
+				C99CC7EF19DDE50400063DD0 /* DateExtension.swift in Sources */,
+				C99CC81519DDE51400063DD0 /* MessagingTableViewCell.swift in Sources */,
+				C99CC80B19DDE51400063DD0 /* AnimationViewController.swift in Sources */,
+				C99CC81919DDE51400063DD0 /* MessagingViewController.swift in Sources */,
+				C99CC82F19DDE6A700063DD0 /* FabcasaTestsExtensions.swift in Sources */,
+				C99CC81119DDE51400063DD0 /* MapKitViewController.swift in Sources */,
+				C99CC7EB19DDE4F600063DD0 /* Stack.swift in Sources */,
+				C99CC6EC19DCB33D00063DD0 /* FabcasaTests.swift in Sources */,
+				C99CC7E919DDE4F600063DD0 /* Queue.swift in Sources */,
+				C99CC82D19DDE68B00063DD0 /* FabcasaTestsDataStructures.swift in Sources */,
+				C99CC82919DDE51400063DD0 /* TimerViewController.swift in Sources */,
+				C99CC80F19DDE51400063DD0 /* UIViewExtension.swift in Sources */,
+				C99CC81D19DDE51400063DD0 /* MFMailViewController.swift in Sources */,
+				C99CC82519DDE51400063DD0 /* PickerViewController.swift in Sources */,
+				C99CC7E719DDE4F600063DD0 /* LinkedList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C99CC6ED19DCB33D00063DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C99CC6EE19DCB33D00063DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C99CC6F019DCB33D00063DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Fabcasa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C99CC6F119DCB33D00063DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Fabcasa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C99CC6F319DCB33D00063DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FabcasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C99CC6F419DCB33D00063DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FabcasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99CC6D619DCB33D00063DD0 /* Build configuration list for PBXProject "Fabcasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99CC6ED19DCB33D00063DD0 /* Debug */,
+				C99CC6EE19DCB33D00063DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99CC6EF19DCB33D00063DD0 /* Build configuration list for PBXNativeTarget "Fabcasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99CC6F019DCB33D00063DD0 /* Debug */,
+				C99CC6F119DCB33D00063DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99CC6F219DCB33D00063DD0 /* Build configuration list for PBXNativeTarget "FabcasaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99CC6F319DCB33D00063DD0 /* Debug */,
+				C99CC6F419DCB33D00063DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99CC6D319DCB33D00063DD0 /* Project object */;
+}

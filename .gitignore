@@ -1,0 +1,72 @@
+# git config --global core.excludesfile ~/.gitignore_global
+
+###########  
+# Custom  #
+###########
+.secret
+secret.md
+Secret
+
+
+#########
+# Xcode #
+#########
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode2v3
+!default.mode2v3
+*.mode1v3
+*.perspectivev3
+!default.perspectivev3
+# *.xcuserdata
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+*.lock
+*.swp
+*.out
+
+#############
+# CocoaPods #
+#############
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+# Pods/
+
+######################
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#######
+# npm #
+#######
+npm-debug.log
+node_modules/
+!/node_modules/
+!src/node_modules/
+
+
+#######
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+#######
+.grunt
+

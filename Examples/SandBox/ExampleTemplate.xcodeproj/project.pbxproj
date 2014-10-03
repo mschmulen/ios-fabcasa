@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99CC67A19DCA97E00063DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC67919DCA97E00063DD0 /* AppDelegate.swift */; };
+		C99CC67C19DCA97E00063DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC67B19DCA97E00063DD0 /* ViewController.swift */; };
+		C99CC68119DCA97E00063DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99CC68019DCA97E00063DD0 /* Images.xcassets */; };
+		C99CC68419DCA97E00063DD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC68219DCA97E00063DD0 /* LaunchScreen.xib */; };
+		C99CC69019DCA97E00063DD0 /* ExampleTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC68F19DCA97E00063DD0 /* ExampleTemplateTests.swift */; };
+		C99CC69B19DCA99E00063DD0 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC69919DCA99E00063DD0 /* SwiftViewController.swift */; };
+		C99CC69C19DCA99E00063DD0 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC69919DCA99E00063DD0 /* SwiftViewController.swift */; };
+		C99CC69D19DCA99E00063DD0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC69A19DCA99E00063DD0 /* ViewController.xib */; };
+		C99CC69E19DCA99E00063DD0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC69A19DCA99E00063DD0 /* ViewController.xib */; };
+		C99CC74719DCB79800063DD0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC73119DCB79800063DD0 /* DateExtension.swift */; };
+		C99CC74B19DCB79800063DD0 /* Projecteuler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC73919DCB79800063DD0 /* Projecteuler1.swift */; };
+		C99CC74C19DCB79800063DD0 /* MFMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC73D19DCB79800063DD0 /* MFMailViewController.swift */; };
+		C99CC74D19DCB79800063DD0 /* MFMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC73E19DCB79800063DD0 /* MFMailViewController.xib */; };
+		C99CC74E19DCB79800063DD0 /* MPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC74019DCB79800063DD0 /* MPCViewController.swift */; };
+		C99CC74F19DCB79800063DD0 /* MPCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC74119DCB79800063DD0 /* MPCViewController.xib */; };
+		C99CC75019DCB79800063DD0 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC74319DCB79800063DD0 /* PickerViewController.swift */; };
+		C99CC75119DCB79800063DD0 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC74419DCB79800063DD0 /* PickerViewController.xib */; };
+		C99CC79419DCBD2B00063DD0 /* MessagingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC79019DCBD2B00063DD0 /* MessagingTableViewCell.swift */; };
+		C99CC79519DCBD2B00063DD0 /* MessagingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC79019DCBD2B00063DD0 /* MessagingTableViewCell.swift */; };
+		C99CC79619DCBD2B00063DD0 /* MessagingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC79119DCBD2B00063DD0 /* MessagingTableViewCell.xib */; };
+		C99CC79719DCBD2B00063DD0 /* MessagingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC79119DCBD2B00063DD0 /* MessagingTableViewCell.xib */; };
+		C99CC79819DCBD2B00063DD0 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC79219DCBD2B00063DD0 /* MessagingViewController.swift */; };
+		C99CC79919DCBD2B00063DD0 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC79219DCBD2B00063DD0 /* MessagingViewController.swift */; };
+		C99CC79A19DCBD2B00063DD0 /* MessagingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC79319DCBD2B00063DD0 /* MessagingViewController.xib */; };
+		C99CC79B19DCBD2B00063DD0 /* MessagingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC79319DCBD2B00063DD0 /* MessagingViewController.xib */; };
+		C99CC7A519DCCD2300063DD0 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7A319DCCD2300063DD0 /* MapKitViewController.swift */; };
+		C99CC7A619DCCD2300063DD0 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7A319DCCD2300063DD0 /* MapKitViewController.swift */; };
+		C99CC7A719DCCD2300063DD0 /* MapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7A419DCCD2300063DD0 /* MapKitViewController.xib */; };
+		C99CC7A819DCCD2300063DD0 /* MapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7A419DCCD2300063DD0 /* MapKitViewController.xib */; };
+		C99CC7B219DDCFC500063DD0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7B019DDCFC500063DD0 /* TimerViewController.swift */; };
+		C99CC7B319DDCFC500063DD0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7B019DDCFC500063DD0 /* TimerViewController.swift */; };
+		C99CC7B419DDCFC500063DD0 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7B119DDCFC500063DD0 /* TimerViewController.xib */; };
+		C99CC7B519DDCFC500063DD0 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7B119DDCFC500063DD0 /* TimerViewController.xib */; };
+		C99CC7BF19DDD14A00063DD0 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7BD19DDD14A00063DD0 /* AnimationViewController.swift */; };
+		C99CC7C019DDD14A00063DD0 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7BD19DDD14A00063DD0 /* AnimationViewController.swift */; };
+		C99CC7C119DDD14A00063DD0 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7BE19DDD14A00063DD0 /* AnimationViewController.xib */; };
+		C99CC7C219DDD14A00063DD0 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC7BE19DDD14A00063DD0 /* AnimationViewController.xib */; };
+		C99CC7C419DDD2D600063DD0 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7C319DDD2D600063DD0 /* UIViewExtension.swift */; };
+		C99CC7C519DDD2D600063DD0 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7C319DDD2D600063DD0 /* UIViewExtension.swift */; };
+		C99CC7CB19DDD9B400063DD0 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7CA19DDD9B400063DD0 /* LinkedList.swift */; };
+		C99CC7CC19DDD9B400063DD0 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7CA19DDD9B400063DD0 /* LinkedList.swift */; };
+		C99CC7CE19DDDD4C00063DD0 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7CD19DDDD4C00063DD0 /* Graph.swift */; };
+		C99CC7CF19DDDD4C00063DD0 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7CD19DDDD4C00063DD0 /* Graph.swift */; };
+		C99CC7D119DDDFF100063DD0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7D019DDDFF100063DD0 /* Stack.swift */; };
+		C99CC7D219DDDFF100063DD0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7D019DDDFF100063DD0 /* Stack.swift */; };
+		C99CC7D419DDE14500063DD0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7D319DDE14500063DD0 /* Queue.swift */; };
+		C99CC7D519DDE14500063DD0 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7D319DDE14500063DD0 /* Queue.swift */; };
+		C9BD0DF919DE75ED00878307 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0DF719DE75ED00878307 /* WebViewController.swift */; };
+		C9BD0DFA19DE75ED00878307 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0DF719DE75ED00878307 /* WebViewController.swift */; };
+		C9BD0DFB19DE75ED00878307 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BD0DF819DE75ED00878307 /* WebViewController.xib */; };
+		C9BD0DFC19DE75ED00878307 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BD0DF819DE75ED00878307 /* WebViewController.xib */; };
+		C9BD0E1219DF00C100878307 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0E1019DF00C100878307 /* UserProfileViewController.swift */; };
+		C9BD0E1319DF00C100878307 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0E1019DF00C100878307 /* UserProfileViewController.swift */; };
+		C9BD0E1419DF00C100878307 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BD0E1119DF00C100878307 /* UserProfileViewController.xib */; };
+		C9BD0E1519DF00C100878307 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BD0E1119DF00C100878307 /* UserProfileViewController.xib */; };
+		C9BD0E1919DF00D400878307 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0E1719DF00D400878307 /* LoginViewController.swift */; };
+		C9BD0E1A19DF00D400878307 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0E1719DF00D400878307 /* LoginViewController.swift */; };
+		C9BD0E1B19DF00D400878307 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BD0E1819DF00D400878307 /* LoginViewController.xib */; };
+		C9BD0E1C19DF00D400878307 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BD0E1819DF00D400878307 /* LoginViewController.xib */; };
+		C9BD0E2019DF00DD00878307 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0E1E19DF00DD00878307 /* SettingsViewController.swift */; };
+		C9BD0E2119DF00DD00878307 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0E1E19DF00DD00878307 /* SettingsViewController.swift */; };
+		C9BD0E2219DF00DD00878307 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BD0E1F19DF00DD00878307 /* SettingsViewController.xib */; };
+		C9BD0E2319DF00DD00878307 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BD0E1F19DF00DD00878307 /* SettingsViewController.xib */; };
+		C9E9FEA619DF039F001CE183 /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E9FEA519DF039F001CE183 /* UserNotification.swift */; };
+		C9E9FEA719DF039F001CE183 /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E9FEA519DF039F001CE183 /* UserNotification.swift */; };
+		C9E9FEA919DF0479001CE183 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E9FEA819DF0479001CE183 /* AlertController.swift */; };
+		C9E9FEAA19DF0479001CE183 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E9FEA819DF0479001CE183 /* AlertController.swift */; };
+		C9E9FEAC19DF0698001CE183 /* UIButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E9FEAB19DF0698001CE183 /* UIButtonFactory.swift */; };
+		C9E9FEAD19DF0698001CE183 /* UIButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E9FEAB19DF0698001CE183 /* UIButtonFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99CC68A19DCA97E00063DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99CC66C19DCA97E00063DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99CC67319DCA97E00063DD0;
+			remoteInfo = ExampleTemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C99CC67419DCA97E00063DD0 /* ExampleTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99CC67819DCA97E00063DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99CC67919DCA97E00063DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C99CC67B19DCA97E00063DD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C99CC68019DCA97E00063DD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C99CC68319DCA97E00063DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C99CC68919DCA97E00063DD0 /* ExampleTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99CC68E19DCA97E00063DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99CC68F19DCA97E00063DD0 /* ExampleTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTemplateTests.swift; sourceTree = "<group>"; };
+		C99CC69919DCA99E00063DD0 /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		C99CC69A19DCA99E00063DD0 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C99CC73119DCB79800063DD0 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C99CC73919DCB79800063DD0 /* Projecteuler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projecteuler1.swift; sourceTree = "<group>"; };
+		C99CC73D19DCB79800063DD0 /* MFMailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFMailViewController.swift; sourceTree = "<group>"; };
+		C99CC73E19DCB79800063DD0 /* MFMailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFMailViewController.xib; sourceTree = "<group>"; };
+		C99CC74019DCB79800063DD0 /* MPCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCViewController.swift; sourceTree = "<group>"; };
+		C99CC74119DCB79800063DD0 /* MPCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPCViewController.xib; sourceTree = "<group>"; };
+		C99CC74319DCB79800063DD0 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		C99CC74419DCB79800063DD0 /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		C99CC79019DCBD2B00063DD0 /* MessagingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingTableViewCell.swift; sourceTree = "<group>"; };
+		C99CC79119DCBD2B00063DD0 /* MessagingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagingTableViewCell.xib; sourceTree = "<group>"; };
+		C99CC79219DCBD2B00063DD0 /* MessagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		C99CC79319DCBD2B00063DD0 /* MessagingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagingViewController.xib; sourceTree = "<group>"; };
+		C99CC7A319DCCD2300063DD0 /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		C99CC7A419DCCD2300063DD0 /* MapKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapKitViewController.xib; sourceTree = "<group>"; };
+		C99CC7B019DDCFC500063DD0 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		C99CC7B119DDCFC500063DD0 /* TimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		C99CC7BD19DDD14A00063DD0 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		C99CC7BE19DDD14A00063DD0 /* AnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
+		C99CC7C319DDD2D600063DD0 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C99CC7CA19DDD9B400063DD0 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		C99CC7CD19DDDD4C00063DD0 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		C99CC7D019DDDFF100063DD0 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		C99CC7D319DDE14500063DD0 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		C9BD0DF719DE75ED00878307 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C9BD0DF819DE75ED00878307 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		C9BD0E1019DF00C100878307 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		C9BD0E1119DF00C100878307 /* UserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileViewController.xib; sourceTree = "<group>"; };
+		C9BD0E1719DF00D400878307 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C9BD0E1819DF00D400878307 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C9BD0E1E19DF00DD00878307 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C9BD0E1F19DF00DD00878307 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		C9E9FEA519DF039F001CE183 /* UserNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotification.swift; sourceTree = "<group>"; };
+		C9E9FEA819DF0479001CE183 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		C9E9FEAB19DF0698001CE183 /* UIButtonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99CC67119DCA97E00063DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99CC68619DCA97E00063DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99CC66B19DCA97E00063DD0 = {
+			isa = PBXGroup;
+			children = (
+				C99CC72E19DCB79800063DD0 /* Fabcasa */,
+				C99CC67619DCA97E00063DD0 /* ExampleTemplate */,
+				C99CC68C19DCA97E00063DD0 /* ExampleTemplateTests */,
+				C99CC67519DCA97E00063DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99CC67519DCA97E00063DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC67419DCA97E00063DD0 /* ExampleTemplate.app */,
+				C99CC68919DCA97E00063DD0 /* ExampleTemplateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99CC67619DCA97E00063DD0 /* ExampleTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC67919DCA97E00063DD0 /* AppDelegate.swift */,
+				C99CC69919DCA99E00063DD0 /* SwiftViewController.swift */,
+				C99CC69A19DCA99E00063DD0 /* ViewController.xib */,
+				C99CC67B19DCA97E00063DD0 /* ViewController.swift */,
+				C99CC68019DCA97E00063DD0 /* Images.xcassets */,
+				C99CC68219DCA97E00063DD0 /* LaunchScreen.xib */,
+				C99CC67719DCA97E00063DD0 /* Supporting Files */,
+			);
+			path = ExampleTemplate;
+			sourceTree = "<group>";
+		};
+		C99CC67719DCA97E00063DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC67819DCA97E00063DD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99CC68C19DCA97E00063DD0 /* ExampleTemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC68F19DCA97E00063DD0 /* ExampleTemplateTests.swift */,
+				C99CC68D19DCA97E00063DD0 /* Supporting Files */,
+			);
+			path = ExampleTemplateTests;
+			sourceTree = "<group>";
+		};
+		C99CC68D19DCA97E00063DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC68E19DCA97E00063DD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C99CC72E19DCB79800063DD0 /* Fabcasa */ = {
+			isa = PBXGroup;
+			children = (
+				C9E9FEA419DF039F001CE183 /* Framework */,
+				C99CC7C919DDD9B400063DD0 /* DataStructures */,
+				C99CC72F19DCB79800063DD0 /* Extensions */,
+				C99CC73519DCB79800063DD0 /* Models */,
+				C99CC73619DCB79800063DD0 /* Networking */,
+				C99CC73719DCB79800063DD0 /* Sandbox */,
+				C99CC73A19DCB79800063DD0 /* ViewControllers */,
+				C99CC74519DCB79800063DD0 /* Views */,
+			);
+			name = Fabcasa;
+			path = ../../Fabcasa;
+			sourceTree = "<group>";
+		};
+		C99CC72F19DCB79800063DD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC73119DCB79800063DD0 /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C99CC73519DCB79800063DD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C99CC73619DCB79800063DD0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C99CC73719DCB79800063DD0 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC73919DCB79800063DD0 /* Projecteuler1.swift */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		C99CC73A19DCB79800063DD0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD0E1D19DF00DD00878307 /* SettingsViewController */,
+				C9BD0E1619DF00D400878307 /* LoginViewController */,
+				C9BD0E0F19DF00C100878307 /* UserProfileViewController */,
+				C9BD0DF619DE75ED00878307 /* WebViewController */,
+				C99CC7BC19DDD14A00063DD0 /* AnimationViewController */,
+				C99CC7AF19DDCFC500063DD0 /* TimerViewController */,
+				C99CC7A219DCCD2300063DD0 /* MapKitViewController */,
+				C99CC78F19DCBD2B00063DD0 /* MessagingViewController */,
+				C99CC73B19DCB79800063DD0 /* IBeaconViewController */,
+				C99CC73C19DCB79800063DD0 /* MFMailViewController */,
+				C99CC73F19DCB79800063DD0 /* MPCViewController */,
+				C99CC74219DCB79800063DD0 /* PickerViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C99CC73B19DCB79800063DD0 /* IBeaconViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IBeaconViewController;
+			sourceTree = "<group>";
+		};
+		C99CC73C19DCB79800063DD0 /* MFMailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC73D19DCB79800063DD0 /* MFMailViewController.swift */,
+				C99CC73E19DCB79800063DD0 /* MFMailViewController.xib */,
+			);
+			path = MFMailViewController;
+			sourceTree = "<group>";
+		};
+		C99CC73F19DCB79800063DD0 /* MPCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC74019DCB79800063DD0 /* MPCViewController.swift */,
+				C99CC74119DCB79800063DD0 /* MPCViewController.xib */,
+			);
+			path = MPCViewController;
+			sourceTree = "<group>";
+		};
+		C99CC74219DCB79800063DD0 /* PickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC74319DCB79800063DD0 /* PickerViewController.swift */,
+				C99CC74419DCB79800063DD0 /* PickerViewController.xib */,
+			);
+			path = PickerViewController;
+			sourceTree = "<group>";
+		};
+		C99CC74519DCB79800063DD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9E9FEAB19DF0698001CE183 /* UIButtonFactory.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C99CC78F19DCBD2B00063DD0 /* MessagingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC79019DCBD2B00063DD0 /* MessagingTableViewCell.swift */,
+				C99CC79119DCBD2B00063DD0 /* MessagingTableViewCell.xib */,
+				C99CC79219DCBD2B00063DD0 /* MessagingViewController.swift */,
+				C99CC79319DCBD2B00063DD0 /* MessagingViewController.xib */,
+			);
+			path = MessagingViewController;
+			sourceTree = "<group>";
+		};
+		C99CC7A219DCCD2300063DD0 /* MapKitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7A319DCCD2300063DD0 /* MapKitViewController.swift */,
+				C99CC7A419DCCD2300063DD0 /* MapKitViewController.xib */,
+			);
+			path = MapKitViewController;
+			sourceTree = "<group>";
+		};
+		C99CC7AF19DDCFC500063DD0 /* TimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7B019DDCFC500063DD0 /* TimerViewController.swift */,
+				C99CC7B119DDCFC500063DD0 /* TimerViewController.xib */,
+			);
+			path = TimerViewController;
+			sourceTree = "<group>";
+		};
+		C99CC7BC19DDD14A00063DD0 /* AnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7BD19DDD14A00063DD0 /* AnimationViewController.swift */,
+				C99CC7BE19DDD14A00063DD0 /* AnimationViewController.xib */,
+				C99CC7C319DDD2D600063DD0 /* UIViewExtension.swift */,
+			);
+			path = AnimationViewController;
+			sourceTree = "<group>";
+		};
+		C99CC7C919DDD9B400063DD0 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				C99CC7CA19DDD9B400063DD0 /* LinkedList.swift */,
+				C99CC7CD19DDDD4C00063DD0 /* Graph.swift */,
+				C99CC7D019DDDFF100063DD0 /* Stack.swift */,
+				C99CC7D319DDE14500063DD0 /* Queue.swift */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		C9BD0DF619DE75ED00878307 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD0DF719DE75ED00878307 /* WebViewController.swift */,
+				C9BD0DF819DE75ED00878307 /* WebViewController.xib */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		C9BD0E0F19DF00C100878307 /* UserProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD0E1019DF00C100878307 /* UserProfileViewController.swift */,
+				C9BD0E1119DF00C100878307 /* UserProfileViewController.xib */,
+			);
+			path = UserProfileViewController;
+			sourceTree = "<group>";
+		};
+		C9BD0E1619DF00D400878307 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD0E1719DF00D400878307 /* LoginViewController.swift */,
+				C9BD0E1819DF00D400878307 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		C9BD0E1D19DF00DD00878307 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9BD0E1E19DF00DD00878307 /* SettingsViewController.swift */,
+				C9BD0E1F19DF00DD00878307 /* SettingsViewController.xib */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		C9E9FEA419DF039F001CE183 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C9E9FEA519DF039F001CE183 /* UserNotification.swift */,
+				C9E9FEA819DF0479001CE183 /* AlertController.swift */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99CC67319DCA97E00063DD0 /* ExampleTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99CC69319DCA97F00063DD0 /* Build configuration list for PBXNativeTarget "ExampleTemplate" */;
+			buildPhases = (
+				C99CC67019DCA97E00063DD0 /* Sources */,
+				C99CC67119DCA97E00063DD0 /* Frameworks */,
+				C99CC67219DCA97E00063DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleTemplate;
+			productName = ExampleTemplate;
+			productReference = C99CC67419DCA97E00063DD0 /* ExampleTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99CC68819DCA97E00063DD0 /* ExampleTemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99CC69619DCA97F00063DD0 /* Build configuration list for PBXNativeTarget "ExampleTemplateTests" */;
+			buildPhases = (
+				C99CC68519DCA97E00063DD0 /* Sources */,
+				C99CC68619DCA97E00063DD0 /* Frameworks */,
+				C99CC68719DCA97E00063DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99CC68B19DCA97E00063DD0 /* PBXTargetDependency */,
+			);
+			name = ExampleTemplateTests;
+			productName = ExampleTemplateTests;
+			productReference = C99CC68919DCA97E00063DD0 /* ExampleTemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99CC66C19DCA97E00063DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Matthew Schmulen";
+				TargetAttributes = {
+					C99CC67319DCA97E00063DD0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C99CC68819DCA97E00063DD0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C99CC67319DCA97E00063DD0;
+					};
+				};
+			};
+			buildConfigurationList = C99CC66F19DCA97E00063DD0 /* Build configuration list for PBXProject "ExampleTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99CC66B19DCA97E00063DD0;
+			productRefGroup = C99CC67519DCA97E00063DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99CC67319DCA97E00063DD0 /* ExampleTemplate */,
+				C99CC68819DCA97E00063DD0 /* ExampleTemplateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99CC67219DCA97E00063DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99CC74D19DCB79800063DD0 /* MFMailViewController.xib in Resources */,
+				C99CC79A19DCBD2B00063DD0 /* MessagingViewController.xib in Resources */,
+				C99CC69D19DCA99E00063DD0 /* ViewController.xib in Resources */,
+				C9BD0DFB19DE75ED00878307 /* WebViewController.xib in Resources */,
+				C9BD0E2219DF00DD00878307 /* SettingsViewController.xib in Resources */,
+				C99CC7C119DDD14A00063DD0 /* AnimationViewController.xib in Resources */,
+				C99CC79619DCBD2B00063DD0 /* MessagingTableViewCell.xib in Resources */,
+				C9BD0E1419DF00C100878307 /* UserProfileViewController.xib in Resources */,
+				C99CC68419DCA97E00063DD0 /* LaunchScreen.xib in Resources */,
+				C99CC68119DCA97E00063DD0 /* Images.xcassets in Resources */,
+				C99CC7A719DCCD2300063DD0 /* MapKitViewController.xib in Resources */,
+				C99CC75119DCB79800063DD0 /* PickerViewController.xib in Resources */,
+				C99CC7B419DDCFC500063DD0 /* TimerViewController.xib in Resources */,
+				C9BD0E1B19DF00D400878307 /* LoginViewController.xib in Resources */,
+				C99CC74F19DCB79800063DD0 /* MPCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99CC68719DCA97E00063DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99CC79719DCBD2B00063DD0 /* MessagingTableViewCell.xib in Resources */,
+				C99CC69E19DCA99E00063DD0 /* ViewController.xib in Resources */,
+				C99CC7A819DCCD2300063DD0 /* MapKitViewController.xib in Resources */,
+				C9BD0DFC19DE75ED00878307 /* WebViewController.xib in Resources */,
+				C99CC7C219DDD14A00063DD0 /* AnimationViewController.xib in Resources */,
+				C9BD0E1519DF00C100878307 /* UserProfileViewController.xib in Resources */,
+				C99CC7B519DDCFC500063DD0 /* TimerViewController.xib in Resources */,
+				C99CC79B19DCBD2B00063DD0 /* MessagingViewController.xib in Resources */,
+				C9BD0E1C19DF00D400878307 /* LoginViewController.xib in Resources */,
+				C9BD0E2319DF00DD00878307 /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99CC67019DCA97E00063DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E9FEAC19DF0698001CE183 /* UIButtonFactory.swift in Sources */,
+				C9BD0E1919DF00D400878307 /* LoginViewController.swift in Sources */,
+				C9BD0DF919DE75ED00878307 /* WebViewController.swift in Sources */,
+				C9BD0E1219DF00C100878307 /* UserProfileViewController.swift in Sources */,
+				C99CC79419DCBD2B00063DD0 /* MessagingTableViewCell.swift in Sources */,
+				C9E9FEA919DF0479001CE183 /* AlertController.swift in Sources */,
+				C9E9FEA619DF039F001CE183 /* UserNotification.swift in Sources */,
+				C99CC69B19DCA99E00063DD0 /* SwiftViewController.swift in Sources */,
+				C99CC7A519DCCD2300063DD0 /* MapKitViewController.swift in Sources */,
+				C99CC7D119DDDFF100063DD0 /* Stack.swift in Sources */,
+				C99CC74719DCB79800063DD0 /* DateExtension.swift in Sources */,
+				C99CC79819DCBD2B00063DD0 /* MessagingViewController.swift in Sources */,
+				C99CC67C19DCA97E00063DD0 /* ViewController.swift in Sources */,
+				C99CC7D419DDE14500063DD0 /* Queue.swift in Sources */,
+				C99CC74B19DCB79800063DD0 /* Projecteuler1.swift in Sources */,
+				C99CC7BF19DDD14A00063DD0 /* AnimationViewController.swift in Sources */,
+				C9BD0E2019DF00DD00878307 /* SettingsViewController.swift in Sources */,
+				C99CC7CE19DDDD4C00063DD0 /* Graph.swift in Sources */,
+				C99CC7C419DDD2D600063DD0 /* UIViewExtension.swift in Sources */,
+				C99CC67A19DCA97E00063DD0 /* AppDelegate.swift in Sources */,
+				C99CC7B219DDCFC500063DD0 /* TimerViewController.swift in Sources */,
+				C99CC75019DCB79800063DD0 /* PickerViewController.swift in Sources */,
+				C99CC7CB19DDD9B400063DD0 /* LinkedList.swift in Sources */,
+				C99CC74C19DCB79800063DD0 /* MFMailViewController.swift in Sources */,
+				C99CC74E19DCB79800063DD0 /* MPCViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99CC68519DCA97E00063DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99CC7CC19DDD9B400063DD0 /* LinkedList.swift in Sources */,
+				C99CC79519DCBD2B00063DD0 /* MessagingTableViewCell.swift in Sources */,
+				C99CC7A619DCCD2300063DD0 /* MapKitViewController.swift in Sources */,
+				C9BD0E1A19DF00D400878307 /* LoginViewController.swift in Sources */,
+				C99CC7C019DDD14A00063DD0 /* AnimationViewController.swift in Sources */,
+				C99CC7CF19DDDD4C00063DD0 /* Graph.swift in Sources */,
+				C99CC7D219DDDFF100063DD0 /* Stack.swift in Sources */,
+				C9BD0E2119DF00DD00878307 /* SettingsViewController.swift in Sources */,
+				C99CC79919DCBD2B00063DD0 /* MessagingViewController.swift in Sources */,
+				C99CC7D519DDE14500063DD0 /* Queue.swift in Sources */,
+				C9E9FEAA19DF0479001CE183 /* AlertController.swift in Sources */,
+				C99CC69C19DCA99E00063DD0 /* SwiftViewController.swift in Sources */,
+				C9BD0E1319DF00C100878307 /* UserProfileViewController.swift in Sources */,
+				C99CC7B319DDCFC500063DD0 /* TimerViewController.swift in Sources */,
+				C9E9FEAD19DF0698001CE183 /* UIButtonFactory.swift in Sources */,
+				C99CC7C519DDD2D600063DD0 /* UIViewExtension.swift in Sources */,
+				C9E9FEA719DF039F001CE183 /* UserNotification.swift in Sources */,
+				C9BD0DFA19DE75ED00878307 /* WebViewController.swift in Sources */,
+				C99CC69019DCA97E00063DD0 /* ExampleTemplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99CC68B19DCA97E00063DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99CC67319DCA97E00063DD0 /* ExampleTemplate */;
+			targetProxy = C99CC68A19DCA97E00063DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C99CC68219DCA97E00063DD0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99CC68319DCA97E00063DD0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99CC69119DCA97F00063DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C99CC69219DCA97F00063DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C99CC69419DCA97F00063DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/matt/trees/github.com/mschmulen/ios-fabcasa/fabcasa-swift/build/Debug-iphoneos",
+					"/Users/matt/trees/github.com/mschmulen/ios-fabcasa/Fabcasa/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = ExampleTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C99CC69519DCA97F00063DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/matt/trees/github.com/mschmulen/ios-fabcasa/fabcasa-swift/build/Debug-iphoneos",
+					"/Users/matt/trees/github.com/mschmulen/ios-fabcasa/Fabcasa/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = ExampleTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C99CC69719DCA97F00063DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExampleTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleTemplate.app/ExampleTemplate";
+			};
+			name = Debug;
+		};
+		C99CC69819DCA97F00063DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ExampleTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleTemplate.app/ExampleTemplate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99CC66F19DCA97E00063DD0 /* Build configuration list for PBXProject "ExampleTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99CC69119DCA97F00063DD0 /* Debug */,
+				C99CC69219DCA97F00063DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99CC69319DCA97F00063DD0 /* Build configuration list for PBXNativeTarget "ExampleTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99CC69419DCA97F00063DD0 /* Debug */,
+				C99CC69519DCA97F00063DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99CC69619DCA97F00063DD0 /* Build configuration list for PBXNativeTarget "ExampleTemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99CC69719DCA97F00063DD0 /* Debug */,
+				C99CC69819DCA97F00063DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99CC66C19DCA97E00063DD0 /* Project object */;
+}
