@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C968E7A419DF570900058643 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968E7A219DF570900058643 /* ProductsViewController.swift */; };
+		C968E7A519DF570900058643 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968E7A219DF570900058643 /* ProductsViewController.swift */; };
+		C968E7A619DF570900058643 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C968E7A319DF570900058643 /* ProductsViewController.xib */; };
+		C968E7A719DF570900058643 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C968E7A319DF570900058643 /* ProductsViewController.xib */; };
+		C968E7AC19DF571A00058643 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968E7AA19DF571A00058643 /* ProductDetailViewController.swift */; };
+		C968E7AD19DF571A00058643 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C968E7AA19DF571A00058643 /* ProductDetailViewController.swift */; };
+		C968E7AE19DF571A00058643 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C968E7AB19DF571A00058643 /* ProductDetailViewController.xib */; };
+		C968E7AF19DF571A00058643 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C968E7AB19DF571A00058643 /* ProductDetailViewController.xib */; };
 		C99CC67A19DCA97E00063DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC67919DCA97E00063DD0 /* AppDelegate.swift */; };
 		C99CC67C19DCA97E00063DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC67B19DCA97E00063DD0 /* ViewController.swift */; };
 		C99CC68119DCA97E00063DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99CC68019DCA97E00063DD0 /* Images.xcassets */; };
@@ -89,6 +97,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C968E7A219DF570900058643 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		C968E7A319DF570900058643 /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
+		C968E7AA19DF571A00058643 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		C968E7AB19DF571A00058643 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
 		C99CC67419DCA97E00063DD0 /* ExampleTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99CC67819DCA97E00063DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99CC67919DCA97E00063DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -154,6 +166,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C968E7A119DF570900058643 /* ProductsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C968E7A219DF570900058643 /* ProductsViewController.swift */,
+				C968E7A319DF570900058643 /* ProductsViewController.xib */,
+			);
+			path = ProductsViewController;
+			sourceTree = "<group>";
+		};
+		C968E7A919DF571A00058643 /* ProductDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C968E7AA19DF571A00058643 /* ProductDetailViewController.swift */,
+				C968E7AB19DF571A00058643 /* ProductDetailViewController.xib */,
+			);
+			path = ProductDetailViewController;
+			sourceTree = "<group>";
+		};
 		C99CC66B19DCA97E00063DD0 = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +291,8 @@
 		C99CC73A19DCB79800063DD0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C968E7A919DF571A00058643 /* ProductDetailViewController */,
+				C968E7A119DF570900058643 /* ProductsViewController */,
 				C9BD0E1D19DF00DD00878307 /* SettingsViewController */,
 				C9BD0E1619DF00D400878307 /* LoginViewController */,
 				C9BD0E0F19DF00C100878307 /* UserProfileViewController */,
@@ -497,6 +529,7 @@
 				C99CC74D19DCB79800063DD0 /* MFMailViewController.xib in Resources */,
 				C99CC79A19DCBD2B00063DD0 /* MessagingViewController.xib in Resources */,
 				C99CC69D19DCA99E00063DD0 /* ViewController.xib in Resources */,
+				C968E7AE19DF571A00058643 /* ProductDetailViewController.xib in Resources */,
 				C9BD0DFB19DE75ED00878307 /* WebViewController.xib in Resources */,
 				C9BD0E2219DF00DD00878307 /* SettingsViewController.xib in Resources */,
 				C99CC7C119DDD14A00063DD0 /* AnimationViewController.xib in Resources */,
@@ -508,6 +541,7 @@
 				C99CC75119DCB79800063DD0 /* PickerViewController.xib in Resources */,
 				C99CC7B419DDCFC500063DD0 /* TimerViewController.xib in Resources */,
 				C9BD0E1B19DF00D400878307 /* LoginViewController.xib in Resources */,
+				C968E7A619DF570900058643 /* ProductsViewController.xib in Resources */,
 				C99CC74F19DCB79800063DD0 /* MPCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,12 +554,14 @@
 				C99CC69E19DCA99E00063DD0 /* ViewController.xib in Resources */,
 				C99CC7A819DCCD2300063DD0 /* MapKitViewController.xib in Resources */,
 				C9BD0DFC19DE75ED00878307 /* WebViewController.xib in Resources */,
+				C968E7A719DF570900058643 /* ProductsViewController.xib in Resources */,
 				C99CC7C219DDD14A00063DD0 /* AnimationViewController.xib in Resources */,
 				C9BD0E1519DF00C100878307 /* UserProfileViewController.xib in Resources */,
 				C99CC7B519DDCFC500063DD0 /* TimerViewController.xib in Resources */,
 				C99CC79B19DCBD2B00063DD0 /* MessagingViewController.xib in Resources */,
 				C9BD0E1C19DF00D400878307 /* LoginViewController.xib in Resources */,
 				C9BD0E2319DF00DD00878307 /* SettingsViewController.xib in Resources */,
+				C968E7AF19DF571A00058643 /* ProductDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,11 +583,13 @@
 				C99CC7A519DCCD2300063DD0 /* MapKitViewController.swift in Sources */,
 				C99CC7D119DDDFF100063DD0 /* Stack.swift in Sources */,
 				C99CC74719DCB79800063DD0 /* DateExtension.swift in Sources */,
+				C968E7AC19DF571A00058643 /* ProductDetailViewController.swift in Sources */,
 				C99CC79819DCBD2B00063DD0 /* MessagingViewController.swift in Sources */,
 				C99CC67C19DCA97E00063DD0 /* ViewController.swift in Sources */,
 				C99CC7D419DDE14500063DD0 /* Queue.swift in Sources */,
 				C99CC74B19DCB79800063DD0 /* Projecteuler1.swift in Sources */,
 				C99CC7BF19DDD14A00063DD0 /* AnimationViewController.swift in Sources */,
+				C968E7A419DF570900058643 /* ProductsViewController.swift in Sources */,
 				C9BD0E2019DF00DD00878307 /* SettingsViewController.swift in Sources */,
 				C99CC7CE19DDDD4C00063DD0 /* Graph.swift in Sources */,
 				C99CC7C419DDD2D600063DD0 /* UIViewExtension.swift in Sources */,
@@ -570,6 +608,7 @@
 			files = (
 				C99CC7CC19DDD9B400063DD0 /* LinkedList.swift in Sources */,
 				C99CC79519DCBD2B00063DD0 /* MessagingTableViewCell.swift in Sources */,
+				C968E7AD19DF571A00058643 /* ProductDetailViewController.swift in Sources */,
 				C99CC7A619DCCD2300063DD0 /* MapKitViewController.swift in Sources */,
 				C9BD0E1A19DF00D400878307 /* LoginViewController.swift in Sources */,
 				C99CC7C019DDD14A00063DD0 /* AnimationViewController.swift in Sources */,
@@ -582,6 +621,7 @@
 				C99CC69C19DCA99E00063DD0 /* SwiftViewController.swift in Sources */,
 				C9BD0E1319DF00C100878307 /* UserProfileViewController.swift in Sources */,
 				C99CC7B319DDCFC500063DD0 /* TimerViewController.swift in Sources */,
+				C968E7A519DF570900058643 /* ProductsViewController.swift in Sources */,
 				C9E9FEAD19DF0698001CE183 /* UIButtonFactory.swift in Sources */,
 				C99CC7C519DDD2D600063DD0 /* UIViewExtension.swift in Sources */,
 				C9E9FEA719DF039F001CE183 /* UserNotification.swift in Sources */,

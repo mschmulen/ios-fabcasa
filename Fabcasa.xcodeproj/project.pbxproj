@@ -55,6 +55,18 @@
 		C99CC82B19DDE51400063DD0 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC80919DDE51400063DD0 /* TimerViewController.xib */; };
 		C99CC82D19DDE68B00063DD0 /* FabcasaTestsDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC82C19DDE68B00063DD0 /* FabcasaTestsDataStructures.swift */; };
 		C99CC82F19DDE6A700063DD0 /* FabcasaTestsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC82E19DDE6A700063DD0 /* FabcasaTestsExtensions.swift */; };
+		C9A74A3B19DF648D00E80951 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A74A3919DF648D00E80951 /* LoginViewController.swift */; };
+		C9A74A3C19DF648D00E80951 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A74A3919DF648D00E80951 /* LoginViewController.swift */; };
+		C9A74A3D19DF648D00E80951 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A74A3A19DF648D00E80951 /* LoginViewController.xib */; };
+		C9A74A3E19DF648D00E80951 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A74A3A19DF648D00E80951 /* LoginViewController.xib */; };
+		C9A74A4219E2F40300E80951 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A74A4019E2F40300E80951 /* ProductDetailViewController.swift */; };
+		C9A74A4319E2F40300E80951 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A74A4019E2F40300E80951 /* ProductDetailViewController.swift */; };
+		C9A74A4419E2F40300E80951 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A74A4119E2F40300E80951 /* ProductDetailViewController.xib */; };
+		C9A74A4519E2F40300E80951 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A74A4119E2F40300E80951 /* ProductDetailViewController.xib */; };
+		C9A74A4919E2F41000E80951 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A74A4719E2F41000E80951 /* ProductsViewController.swift */; };
+		C9A74A4A19E2F41000E80951 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A74A4719E2F41000E80951 /* ProductsViewController.swift */; };
+		C9A74A4B19E2F41000E80951 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A74A4819E2F41000E80951 /* ProductsViewController.xib */; };
+		C9A74A4C19E2F41000E80951 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A74A4819E2F41000E80951 /* ProductsViewController.xib */; };
 		C9BD0DEC19DDEA2E00878307 /* FabcasaTestsViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0DEB19DDEA2E00878307 /* FabcasaTestsViewControllers.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +101,12 @@
 		C99CC80919DDE51400063DD0 /* TimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
 		C99CC82C19DDE68B00063DD0 /* FabcasaTestsDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabcasaTestsDataStructures.swift; sourceTree = "<group>"; };
 		C99CC82E19DDE6A700063DD0 /* FabcasaTestsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabcasaTestsExtensions.swift; sourceTree = "<group>"; };
+		C9A74A3919DF648D00E80951 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C9A74A3A19DF648D00E80951 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C9A74A4019E2F40300E80951 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		C9A74A4119E2F40300E80951 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
+		C9A74A4719E2F41000E80951 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		C9A74A4819E2F41000E80951 /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
 		C9BD0DEB19DDEA2E00878307 /* FabcasaTestsViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabcasaTestsViewControllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,6 +208,9 @@
 		C99CC7F019DDE51400063DD0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C9A74A4619E2F41000E80951 /* ProductsViewController */,
+				C9A74A3F19E2F40300E80951 /* ProductDetailViewController */,
+				C9A74A3819DF648D00E80951 /* LoginViewController */,
 				C99CC7F119DDE51400063DD0 /* AnimationViewController */,
 				C99CC7F519DDE51400063DD0 /* IBeaconViewController */,
 				C99CC7F619DDE51400063DD0 /* MapKitViewController */,
@@ -273,6 +294,33 @@
 				C99CC80919DDE51400063DD0 /* TimerViewController.xib */,
 			);
 			path = TimerViewController;
+			sourceTree = "<group>";
+		};
+		C9A74A3819DF648D00E80951 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9A74A3919DF648D00E80951 /* LoginViewController.swift */,
+				C9A74A3A19DF648D00E80951 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		C9A74A3F19E2F40300E80951 /* ProductDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9A74A4019E2F40300E80951 /* ProductDetailViewController.swift */,
+				C9A74A4119E2F40300E80951 /* ProductDetailViewController.xib */,
+			);
+			path = ProductDetailViewController;
+			sourceTree = "<group>";
+		};
+		C9A74A4619E2F41000E80951 /* ProductsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9A74A4719E2F41000E80951 /* ProductsViewController.swift */,
+				C9A74A4819E2F41000E80951 /* ProductsViewController.xib */,
+			);
+			path = ProductsViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,11 +415,14 @@
 				C99CC82A19DDE51400063DD0 /* TimerViewController.xib in Resources */,
 				C99CC81619DDE51400063DD0 /* MessagingTableViewCell.xib in Resources */,
 				C99CC81E19DDE51400063DD0 /* MFMailViewController.xib in Resources */,
+				C9A74A4419E2F40300E80951 /* ProductDetailViewController.xib in Resources */,
+				C9A74A4B19E2F41000E80951 /* ProductsViewController.xib in Resources */,
 				C99CC81A19DDE51400063DD0 /* MessagingViewController.xib in Resources */,
 				C99CC81219DDE51400063DD0 /* MapKitViewController.xib in Resources */,
 				C99CC80C19DDE51400063DD0 /* AnimationViewController.xib in Resources */,
 				C99CC82619DDE51400063DD0 /* PickerViewController.xib in Resources */,
 				C99CC82219DDE51400063DD0 /* MPCViewController.xib in Resources */,
+				C9A74A3D19DF648D00E80951 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +433,14 @@
 				C99CC82B19DDE51400063DD0 /* TimerViewController.xib in Resources */,
 				C99CC81719DDE51400063DD0 /* MessagingTableViewCell.xib in Resources */,
 				C99CC81F19DDE51400063DD0 /* MFMailViewController.xib in Resources */,
+				C9A74A4519E2F40300E80951 /* ProductDetailViewController.xib in Resources */,
+				C9A74A4C19E2F41000E80951 /* ProductsViewController.xib in Resources */,
 				C99CC81B19DDE51400063DD0 /* MessagingViewController.xib in Resources */,
 				C99CC81319DDE51400063DD0 /* MapKitViewController.xib in Resources */,
 				C99CC80D19DDE51400063DD0 /* AnimationViewController.xib in Resources */,
 				C99CC82719DDE51400063DD0 /* PickerViewController.xib in Resources */,
 				C99CC82319DDE51400063DD0 /* MPCViewController.xib in Resources */,
+				C9A74A3E19DF648D00E80951 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,8 +452,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99CC7E419DDE4F600063DD0 /* Graph.swift in Sources */,
+				C9A74A4919E2F41000E80951 /* ProductsViewController.swift in Sources */,
 				C99CC7EE19DDE50400063DD0 /* DateExtension.swift in Sources */,
 				C99CC81019DDE51400063DD0 /* MapKitViewController.swift in Sources */,
+				C9A74A3B19DF648D00E80951 /* LoginViewController.swift in Sources */,
 				C99CC82419DDE51400063DD0 /* PickerViewController.swift in Sources */,
 				C99CC81C19DDE51400063DD0 /* MFMailViewController.swift in Sources */,
 				C99CC81819DDE51400063DD0 /* MessagingViewController.swift in Sources */,
@@ -409,6 +465,7 @@
 				C99CC80E19DDE51400063DD0 /* UIViewExtension.swift in Sources */,
 				C99CC82819DDE51400063DD0 /* TimerViewController.swift in Sources */,
 				C99CC81419DDE51400063DD0 /* MessagingTableViewCell.swift in Sources */,
+				C9A74A4219E2F40300E80951 /* ProductDetailViewController.swift in Sources */,
 				C99CC7E819DDE4F600063DD0 /* Queue.swift in Sources */,
 				C99CC7E619DDE4F600063DD0 /* LinkedList.swift in Sources */,
 			);
@@ -422,10 +479,12 @@
 				C99CC7E519DDE4F600063DD0 /* Graph.swift in Sources */,
 				C99CC82119DDE51400063DD0 /* MPCViewController.swift in Sources */,
 				C99CC7EF19DDE50400063DD0 /* DateExtension.swift in Sources */,
+				C9A74A3C19DF648D00E80951 /* LoginViewController.swift in Sources */,
 				C99CC81519DDE51400063DD0 /* MessagingTableViewCell.swift in Sources */,
 				C99CC80B19DDE51400063DD0 /* AnimationViewController.swift in Sources */,
 				C99CC81919DDE51400063DD0 /* MessagingViewController.swift in Sources */,
 				C99CC82F19DDE6A700063DD0 /* FabcasaTestsExtensions.swift in Sources */,
+				C9A74A4A19E2F41000E80951 /* ProductsViewController.swift in Sources */,
 				C99CC81119DDE51400063DD0 /* MapKitViewController.swift in Sources */,
 				C99CC7EB19DDE4F600063DD0 /* Stack.swift in Sources */,
 				C99CC6EC19DCB33D00063DD0 /* FabcasaTests.swift in Sources */,
@@ -434,6 +493,7 @@
 				C99CC82919DDE51400063DD0 /* TimerViewController.swift in Sources */,
 				C99CC80F19DDE51400063DD0 /* UIViewExtension.swift in Sources */,
 				C99CC81D19DDE51400063DD0 /* MFMailViewController.swift in Sources */,
+				C9A74A4319E2F40300E80951 /* ProductDetailViewController.swift in Sources */,
 				C99CC82519DDE51400063DD0 /* PickerViewController.swift in Sources */,
 				C99CC7E719DDE4F600063DD0 /* LinkedList.swift in Sources */,
 			);

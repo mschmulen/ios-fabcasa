@@ -27,9 +27,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //window!.rootViewController = TimerViewController(nibName: "TimerViewController", bundle:nil )
         //window!.rootViewController = AnimationViewController(nibName: "AnimationViewController", bundle:nil )
         //window!.rootViewController = WebViewController(nibName: "WebViewController", bundle:nil )
-        window!.rootViewController = LoginViewController(nibName: "LoginViewController", bundle:nil )
         //window!.rootViewController = SettingsViewController(nibName: "SettingsViewController", bundle:nil )
         //window!.rootViewController = UserProfileViewController(nibName: "UserProfileViewController", bundle:nil )
+        //window!.rootViewController = LoginViewController(nibName: "LoginViewController", bundle:nil )
+        
+        let vc  = LoginViewController(nibName: "LoginViewController", bundle:nil )
+        
+        window!.rootViewController = vc
+        
         
         window!.makeKeyAndVisible()
         
