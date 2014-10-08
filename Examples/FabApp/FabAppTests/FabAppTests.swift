@@ -1,6 +1,6 @@
 //
-//  TestAppTests.swift
-//  TestAppTests
+//  FabAppTests.swift
+//  FabAppTests
 //
 //  Created by Matt Schmulen on 10/6/14.
 //  Copyright (c) 2014 mschmulen. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class TestAppTests: XCTestCase {
+class FabAppTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

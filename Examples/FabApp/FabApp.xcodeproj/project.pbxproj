@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE129F6C19E4554B00C5A5D7 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F6A19E4554B00C5A5D7 /* SlideMenu.swift */; };
+		AE129F6D19E4554B00C5A5D7 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F6A19E4554B00C5A5D7 /* SlideMenu.swift */; };
+		AE129F6E19E4554B00C5A5D7 /* SlideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F6B19E4554B00C5A5D7 /* SlideMenuNavigationController.swift */; };
+		AE129F6F19E4554B00C5A5D7 /* SlideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F6B19E4554B00C5A5D7 /* SlideMenuNavigationController.swift */; };
+		AE129F7119E4560200C5A5D7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F7019E4560200C5A5D7 /* NavigationController.swift */; };
+		AE129F7219E4560200C5A5D7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F7019E4560200C5A5D7 /* NavigationController.swift */; };
+		AE129F7419E4567400C5A5D7 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F7319E4567400C5A5D7 /* MenuTableViewController.swift */; };
+		AE129F7519E4567400C5A5D7 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F7319E4567400C5A5D7 /* MenuTableViewController.swift */; };
+		AE13E63019E35DD600264C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E62F19E35DD600264C10 /* AppDelegate.swift */; };
+		AE13E63219E35DD600264C10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E63119E35DD600264C10 /* ViewController.swift */; };
+		AE13E63519E35DD600264C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE13E63319E35DD600264C10 /* Main.storyboard */; };
+		AE13E63719E35DD600264C10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE13E63619E35DD600264C10 /* Images.xcassets */; };
+		AE13E63A19E35DD600264C10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E63819E35DD600264C10 /* LaunchScreen.xib */; };
+		AE13E64619E35DD600264C10 /* FabAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E64519E35DD600264C10 /* FabAppTests.swift */; };
+		AE13E68719E35DE600264C10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E65819E35DE600264C10 /* LoginViewController.swift */; };
+		AE13E68819E35DE600264C10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E65819E35DE600264C10 /* LoginViewController.swift */; };
+		AE13E68919E35DE600264C10 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E65919E35DE600264C10 /* LoginViewController.xib */; };
+		AE13E68A19E35DE600264C10 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E65919E35DE600264C10 /* LoginViewController.xib */; };
+		AE13E68B19E35DE600264C10 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E65B19E35DE600264C10 /* MapKitViewController.swift */; };
+		AE13E68C19E35DE600264C10 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E65B19E35DE600264C10 /* MapKitViewController.swift */; };
+		AE13E68D19E35DE600264C10 /* MapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E65C19E35DE600264C10 /* MapKitViewController.xib */; };
+		AE13E68E19E35DE600264C10 /* MapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E65C19E35DE600264C10 /* MapKitViewController.xib */; };
+		AE13E68F19E35DE600264C10 /* MessagingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E65E19E35DE600264C10 /* MessagingTableViewCell.swift */; };
+		AE13E69019E35DE600264C10 /* MessagingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E65E19E35DE600264C10 /* MessagingTableViewCell.swift */; };
+		AE13E69119E35DE600264C10 /* MessagingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E65F19E35DE600264C10 /* MessagingTableViewCell.xib */; };
+		AE13E69219E35DE600264C10 /* MessagingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E65F19E35DE600264C10 /* MessagingTableViewCell.xib */; };
+		AE13E69319E35DE600264C10 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66019E35DE600264C10 /* MessagingViewController.swift */; };
+		AE13E69419E35DE600264C10 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66019E35DE600264C10 /* MessagingViewController.swift */; };
+		AE13E69519E35DE600264C10 /* MessagingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E66119E35DE600264C10 /* MessagingViewController.xib */; };
+		AE13E69619E35DE600264C10 /* MessagingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E66119E35DE600264C10 /* MessagingViewController.xib */; };
+		AE13E69719E35DE600264C10 /* MFMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66319E35DE600264C10 /* MFMailViewController.swift */; };
+		AE13E69819E35DE600264C10 /* MFMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66319E35DE600264C10 /* MFMailViewController.swift */; };
+		AE13E69919E35DE600264C10 /* MFMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E66419E35DE600264C10 /* MFMailViewController.xib */; };
+		AE13E69A19E35DE600264C10 /* MFMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E66419E35DE600264C10 /* MFMailViewController.xib */; };
+		AE13E69F19E35DE600264C10 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66919E35DE600264C10 /* PickerViewController.swift */; };
+		AE13E6A019E35DE600264C10 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66919E35DE600264C10 /* PickerViewController.swift */; };
+		AE13E6A119E35DE600264C10 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E66A19E35DE600264C10 /* PickerViewController.xib */; };
+		AE13E6A219E35DE600264C10 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E66A19E35DE600264C10 /* PickerViewController.xib */; };
+		AE13E6A319E35DE600264C10 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66C19E35DE600264C10 /* ProductDetailViewController.swift */; };
+		AE13E6A419E35DE600264C10 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66C19E35DE600264C10 /* ProductDetailViewController.swift */; };
+		AE13E6A519E35DE600264C10 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E66D19E35DE600264C10 /* ProductDetailViewController.xib */; };
+		AE13E6A619E35DE600264C10 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E66D19E35DE600264C10 /* ProductDetailViewController.xib */; };
+		AE13E6A719E35DE600264C10 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66F19E35DE600264C10 /* ProductsViewController.swift */; };
+		AE13E6A819E35DE600264C10 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E66F19E35DE600264C10 /* ProductsViewController.swift */; };
+		AE13E6A919E35DE600264C10 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67019E35DE600264C10 /* ProductsViewController.xib */; };
+		AE13E6AA19E35DE600264C10 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67019E35DE600264C10 /* ProductsViewController.xib */; };
+		AE13E6AB19E35DE600264C10 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E67219E35DE600264C10 /* SettingsViewController.swift */; };
+		AE13E6AC19E35DE600264C10 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E67219E35DE600264C10 /* SettingsViewController.swift */; };
+		AE13E6AD19E35DE600264C10 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67319E35DE600264C10 /* SettingsViewController.xib */; };
+		AE13E6AE19E35DE600264C10 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67319E35DE600264C10 /* SettingsViewController.xib */; };
+		AE13E6AF19E35DE600264C10 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E67519E35DE600264C10 /* TimerViewController.swift */; };
+		AE13E6B019E35DE600264C10 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E67519E35DE600264C10 /* TimerViewController.swift */; };
+		AE13E6B119E35DE600264C10 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67619E35DE600264C10 /* TimerViewController.xib */; };
+		AE13E6B219E35DE600264C10 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67619E35DE600264C10 /* TimerViewController.xib */; };
+		AE13E6B319E35DE600264C10 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E67819E35DE600264C10 /* UserProfileViewController.swift */; };
+		AE13E6B419E35DE600264C10 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E67819E35DE600264C10 /* UserProfileViewController.swift */; };
+		AE13E6B519E35DE600264C10 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67919E35DE600264C10 /* UserProfileViewController.xib */; };
+		AE13E6B619E35DE600264C10 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67919E35DE600264C10 /* UserProfileViewController.xib */; };
+		AE13E6B719E35DE600264C10 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E67B19E35DE600264C10 /* WebViewController.swift */; };
+		AE13E6B819E35DE600264C10 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E67B19E35DE600264C10 /* WebViewController.swift */; };
+		AE13E6B919E35DE600264C10 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67C19E35DE600264C10 /* WebViewController.xib */; };
+		AE13E6BA19E35DE600264C10 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE13E67C19E35DE600264C10 /* WebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE13E64019E35DD600264C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE13E62219E35DD600264C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE13E62919E35DD600264C10;
+			remoteInfo = FabApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE129F6A19E4554B00C5A5D7 /* SlideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		AE129F6B19E4554B00C5A5D7 /* SlideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuNavigationController.swift; sourceTree = "<group>"; };
+		AE129F7019E4560200C5A5D7 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		AE129F7319E4567400C5A5D7 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		AE13E62A19E35DD600264C10 /* FabApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FabApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE13E62E19E35DD600264C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE13E62F19E35DD600264C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE13E63119E35DD600264C10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE13E63419E35DD600264C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE13E63619E35DD600264C10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE13E63919E35DD600264C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AE13E63F19E35DD600264C10 /* FabAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE13E64419E35DD600264C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE13E64519E35DD600264C10 /* FabAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabAppTests.swift; sourceTree = "<group>"; };
+		AE13E65819E35DE600264C10 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE13E65919E35DE600264C10 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		AE13E65B19E35DE600264C10 /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		AE13E65C19E35DE600264C10 /* MapKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapKitViewController.xib; sourceTree = "<group>"; };
+		AE13E65E19E35DE600264C10 /* MessagingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingTableViewCell.swift; sourceTree = "<group>"; };
+		AE13E65F19E35DE600264C10 /* MessagingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagingTableViewCell.xib; sourceTree = "<group>"; };
+		AE13E66019E35DE600264C10 /* MessagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		AE13E66119E35DE600264C10 /* MessagingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagingViewController.xib; sourceTree = "<group>"; };
+		AE13E66319E35DE600264C10 /* MFMailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFMailViewController.swift; sourceTree = "<group>"; };
+		AE13E66419E35DE600264C10 /* MFMailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFMailViewController.xib; sourceTree = "<group>"; };
+		AE13E66919E35DE600264C10 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		AE13E66A19E35DE600264C10 /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		AE13E66C19E35DE600264C10 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		AE13E66D19E35DE600264C10 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
+		AE13E66F19E35DE600264C10 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		AE13E67019E35DE600264C10 /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
+		AE13E67219E35DE600264C10 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AE13E67319E35DE600264C10 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		AE13E67519E35DE600264C10 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		AE13E67619E35DE600264C10 /* TimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		AE13E67819E35DE600264C10 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		AE13E67919E35DE600264C10 /* UserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileViewController.xib; sourceTree = "<group>"; };
+		AE13E67B19E35DE600264C10 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		AE13E67C19E35DE600264C10 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE13E62719E35DD600264C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE13E63C19E35DD600264C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE129F6919E4554B00C5A5D7 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AE129F6A19E4554B00C5A5D7 /* SlideMenu.swift */,
+				AE129F6B19E4554B00C5A5D7 /* SlideMenuNavigationController.swift */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		AE13E62119E35DD600264C10 = {
+			isa = PBXGroup;
+			children = (
+				AE13E62C19E35DD600264C10 /* FabApp */,
+				AE13E64219E35DD600264C10 /* FabAppTests */,
+				AE13E62B19E35DD600264C10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE13E62B19E35DD600264C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E62A19E35DD600264C10 /* FabApp.app */,
+				AE13E63F19E35DD600264C10 /* FabAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE13E62C19E35DD600264C10 /* FabApp */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E64F19E35DE600264C10 /* ViewControllers */,
+				AE13E62F19E35DD600264C10 /* AppDelegate.swift */,
+				AE13E63119E35DD600264C10 /* ViewController.swift */,
+				AE129F7019E4560200C5A5D7 /* NavigationController.swift */,
+				AE129F7319E4567400C5A5D7 /* MenuTableViewController.swift */,
+				AE13E63319E35DD600264C10 /* Main.storyboard */,
+				AE13E63619E35DD600264C10 /* Images.xcassets */,
+				AE13E63819E35DD600264C10 /* LaunchScreen.xib */,
+				AE13E62D19E35DD600264C10 /* Supporting Files */,
+			);
+			path = FabApp;
+			sourceTree = "<group>";
+		};
+		AE13E62D19E35DD600264C10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E62E19E35DD600264C10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE13E64219E35DD600264C10 /* FabAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E64519E35DD600264C10 /* FabAppTests.swift */,
+				AE13E64319E35DD600264C10 /* Supporting Files */,
+			);
+			path = FabAppTests;
+			sourceTree = "<group>";
+		};
+		AE13E64319E35DD600264C10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E64419E35DD600264C10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE13E64F19E35DE600264C10 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE129F6919E4554B00C5A5D7 /* SlideMenu */,
+				AE13E65719E35DE600264C10 /* LoginViewController */,
+				AE13E65A19E35DE600264C10 /* MapKitViewController */,
+				AE13E65D19E35DE600264C10 /* MessagingViewController */,
+				AE13E66219E35DE600264C10 /* MFMailViewController */,
+				AE13E66819E35DE600264C10 /* PickerViewController */,
+				AE13E66B19E35DE600264C10 /* ProductDetailViewController */,
+				AE13E66E19E35DE600264C10 /* ProductsViewController */,
+				AE13E67119E35DE600264C10 /* SettingsViewController */,
+				AE13E67419E35DE600264C10 /* TimerViewController */,
+				AE13E67719E35DE600264C10 /* UserProfileViewController */,
+				AE13E67A19E35DE600264C10 /* WebViewController */,
+			);
+			name = ViewControllers;
+			path = ../../../Fabcasa/ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE13E65719E35DE600264C10 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E65819E35DE600264C10 /* LoginViewController.swift */,
+				AE13E65919E35DE600264C10 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		AE13E65A19E35DE600264C10 /* MapKitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E65B19E35DE600264C10 /* MapKitViewController.swift */,
+				AE13E65C19E35DE600264C10 /* MapKitViewController.xib */,
+			);
+			path = MapKitViewController;
+			sourceTree = "<group>";
+		};
+		AE13E65D19E35DE600264C10 /* MessagingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E65E19E35DE600264C10 /* MessagingTableViewCell.swift */,
+				AE13E65F19E35DE600264C10 /* MessagingTableViewCell.xib */,
+				AE13E66019E35DE600264C10 /* MessagingViewController.swift */,
+				AE13E66119E35DE600264C10 /* MessagingViewController.xib */,
+			);
+			path = MessagingViewController;
+			sourceTree = "<group>";
+		};
+		AE13E66219E35DE600264C10 /* MFMailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E66319E35DE600264C10 /* MFMailViewController.swift */,
+				AE13E66419E35DE600264C10 /* MFMailViewController.xib */,
+			);
+			path = MFMailViewController;
+			sourceTree = "<group>";
+		};
+		AE13E66819E35DE600264C10 /* PickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E66919E35DE600264C10 /* PickerViewController.swift */,
+				AE13E66A19E35DE600264C10 /* PickerViewController.xib */,
+			);
+			path = PickerViewController;
+			sourceTree = "<group>";
+		};
+		AE13E66B19E35DE600264C10 /* ProductDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E66C19E35DE600264C10 /* ProductDetailViewController.swift */,
+				AE13E66D19E35DE600264C10 /* ProductDetailViewController.xib */,
+			);
+			path = ProductDetailViewController;
+			sourceTree = "<group>";
+		};
+		AE13E66E19E35DE600264C10 /* ProductsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E66F19E35DE600264C10 /* ProductsViewController.swift */,
+				AE13E67019E35DE600264C10 /* ProductsViewController.xib */,
+			);
+			path = ProductsViewController;
+			sourceTree = "<group>";
+		};
+		AE13E67119E35DE600264C10 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E67219E35DE600264C10 /* SettingsViewController.swift */,
+				AE13E67319E35DE600264C10 /* SettingsViewController.xib */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		AE13E67419E35DE600264C10 /* TimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E67519E35DE600264C10 /* TimerViewController.swift */,
+				AE13E67619E35DE600264C10 /* TimerViewController.xib */,
+			);
+			path = TimerViewController;
+			sourceTree = "<group>";
+		};
+		AE13E67719E35DE600264C10 /* UserProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E67819E35DE600264C10 /* UserProfileViewController.swift */,
+				AE13E67919E35DE600264C10 /* UserProfileViewController.xib */,
+			);
+			path = UserProfileViewController;
+			sourceTree = "<group>";
+		};
+		AE13E67A19E35DE600264C10 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE13E67B19E35DE600264C10 /* WebViewController.swift */,
+				AE13E67C19E35DE600264C10 /* WebViewController.xib */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE13E62919E35DD600264C10 /* FabApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE13E64919E35DD600264C10 /* Build configuration list for PBXNativeTarget "FabApp" */;
+			buildPhases = (
+				AE13E62619E35DD600264C10 /* Sources */,
+				AE13E62719E35DD600264C10 /* Frameworks */,
+				AE13E62819E35DD600264C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FabApp;
+			productName = FabApp;
+			productReference = AE13E62A19E35DD600264C10 /* FabApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE13E63E19E35DD600264C10 /* FabAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE13E64C19E35DD600264C10 /* Build configuration list for PBXNativeTarget "FabAppTests" */;
+			buildPhases = (
+				AE13E63B19E35DD600264C10 /* Sources */,
+				AE13E63C19E35DD600264C10 /* Frameworks */,
+				AE13E63D19E35DD600264C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE13E64119E35DD600264C10 /* PBXTargetDependency */,
+			);
+			name = FabAppTests;
+			productName = FabAppTests;
+			productReference = AE13E63F19E35DD600264C10 /* FabAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE13E62219E35DD600264C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = mschmulen;
+				TargetAttributes = {
+					AE13E62919E35DD600264C10 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					AE13E63E19E35DD600264C10 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = AE13E62919E35DD600264C10;
+					};
+				};
+			};
+			buildConfigurationList = AE13E62519E35DD600264C10 /* Build configuration list for PBXProject "FabApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE13E62119E35DD600264C10;
+			productRefGroup = AE13E62B19E35DD600264C10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE13E62919E35DD600264C10 /* FabApp */,
+				AE13E63E19E35DD600264C10 /* FabAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE13E62819E35DD600264C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE13E68D19E35DE600264C10 /* MapKitViewController.xib in Resources */,
+				AE13E69519E35DE600264C10 /* MessagingViewController.xib in Resources */,
+				AE13E68919E35DE600264C10 /* LoginViewController.xib in Resources */,
+				AE13E6B119E35DE600264C10 /* TimerViewController.xib in Resources */,
+				AE13E6A119E35DE600264C10 /* PickerViewController.xib in Resources */,
+				AE13E69119E35DE600264C10 /* MessagingTableViewCell.xib in Resources */,
+				AE13E6AD19E35DE600264C10 /* SettingsViewController.xib in Resources */,
+				AE13E69919E35DE600264C10 /* MFMailViewController.xib in Resources */,
+				AE13E63519E35DD600264C10 /* Main.storyboard in Resources */,
+				AE13E63A19E35DD600264C10 /* LaunchScreen.xib in Resources */,
+				AE13E6A919E35DE600264C10 /* ProductsViewController.xib in Resources */,
+				AE13E6B919E35DE600264C10 /* WebViewController.xib in Resources */,
+				AE13E63719E35DD600264C10 /* Images.xcassets in Resources */,
+				AE13E6B519E35DE600264C10 /* UserProfileViewController.xib in Resources */,
+				AE13E6A519E35DE600264C10 /* ProductDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE13E63D19E35DD600264C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE13E6B219E35DE600264C10 /* TimerViewController.xib in Resources */,
+				AE13E69219E35DE600264C10 /* MessagingTableViewCell.xib in Resources */,
+				AE13E68E19E35DE600264C10 /* MapKitViewController.xib in Resources */,
+				AE13E6BA19E35DE600264C10 /* WebViewController.xib in Resources */,
+				AE13E6AE19E35DE600264C10 /* SettingsViewController.xib in Resources */,
+				AE13E68A19E35DE600264C10 /* LoginViewController.xib in Resources */,
+				AE13E6B619E35DE600264C10 /* UserProfileViewController.xib in Resources */,
+				AE13E6AA19E35DE600264C10 /* ProductsViewController.xib in Resources */,
+				AE13E69A19E35DE600264C10 /* MFMailViewController.xib in Resources */,
+				AE13E6A619E35DE600264C10 /* ProductDetailViewController.xib in Resources */,
+				AE13E6A219E35DE600264C10 /* PickerViewController.xib in Resources */,
+				AE13E69619E35DE600264C10 /* MessagingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE13E62619E35DD600264C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE129F6E19E4554B00C5A5D7 /* SlideMenuNavigationController.swift in Sources */,
+				AE13E6B719E35DE600264C10 /* WebViewController.swift in Sources */,
+				AE13E68719E35DE600264C10 /* LoginViewController.swift in Sources */,
+				AE13E68B19E35DE600264C10 /* MapKitViewController.swift in Sources */,
+				AE13E69F19E35DE600264C10 /* PickerViewController.swift in Sources */,
+				AE13E69719E35DE600264C10 /* MFMailViewController.swift in Sources */,
+				AE13E69319E35DE600264C10 /* MessagingViewController.swift in Sources */,
+				AE129F7419E4567400C5A5D7 /* MenuTableViewController.swift in Sources */,
+				AE13E6B319E35DE600264C10 /* UserProfileViewController.swift in Sources */,
+				AE129F6C19E4554B00C5A5D7 /* SlideMenu.swift in Sources */,
+				AE13E6AB19E35DE600264C10 /* SettingsViewController.swift in Sources */,
+				AE13E63219E35DD600264C10 /* ViewController.swift in Sources */,
+				AE13E6A719E35DE600264C10 /* ProductsViewController.swift in Sources */,
+				AE13E6A319E35DE600264C10 /* ProductDetailViewController.swift in Sources */,
+				AE13E6AF19E35DE600264C10 /* TimerViewController.swift in Sources */,
+				AE13E68F19E35DE600264C10 /* MessagingTableViewCell.swift in Sources */,
+				AE129F7119E4560200C5A5D7 /* NavigationController.swift in Sources */,
+				AE13E63019E35DD600264C10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE13E63B19E35DD600264C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE13E69019E35DE600264C10 /* MessagingTableViewCell.swift in Sources */,
+				AE129F6D19E4554B00C5A5D7 /* SlideMenu.swift in Sources */,
+				AE13E6B819E35DE600264C10 /* WebViewController.swift in Sources */,
+				AE13E68819E35DE600264C10 /* LoginViewController.swift in Sources */,
+				AE129F6F19E4554B00C5A5D7 /* SlideMenuNavigationController.swift in Sources */,
+				AE13E6A819E35DE600264C10 /* ProductsViewController.swift in Sources */,
+				AE13E69419E35DE600264C10 /* MessagingViewController.swift in Sources */,
+				AE13E6B019E35DE600264C10 /* TimerViewController.swift in Sources */,
+				AE13E6B419E35DE600264C10 /* UserProfileViewController.swift in Sources */,
+				AE13E6A419E35DE600264C10 /* ProductDetailViewController.swift in Sources */,
+				AE13E68C19E35DE600264C10 /* MapKitViewController.swift in Sources */,
+				AE129F7519E4567400C5A5D7 /* MenuTableViewController.swift in Sources */,
+				AE129F7219E4560200C5A5D7 /* NavigationController.swift in Sources */,
+				AE13E6AC19E35DE600264C10 /* SettingsViewController.swift in Sources */,
+				AE13E6A019E35DE600264C10 /* PickerViewController.swift in Sources */,
+				AE13E69819E35DE600264C10 /* MFMailViewController.swift in Sources */,
+				AE13E64619E35DD600264C10 /* FabAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE13E64119E35DD600264C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE13E62919E35DD600264C10 /* FabApp */;
+			targetProxy = AE13E64019E35DD600264C10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE13E63319E35DD600264C10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE13E63419E35DD600264C10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE13E63819E35DD600264C10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE13E63919E35DD600264C10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE13E64719E35DD600264C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE13E64819E35DD600264C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE13E64A19E35DD600264C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FabApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE13E64B19E35DD600264C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FabApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE13E64D19E35DD600264C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FabAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FabApp.app/FabApp";
+			};
+			name = Debug;
+		};
+		AE13E64E19E35DD600264C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FabAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FabApp.app/FabApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE13E62519E35DD600264C10 /* Build configuration list for PBXProject "FabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE13E64719E35DD600264C10 /* Debug */,
+				AE13E64819E35DD600264C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE13E64919E35DD600264C10 /* Build configuration list for PBXNativeTarget "FabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE13E64A19E35DD600264C10 /* Debug */,
+				AE13E64B19E35DD600264C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE13E64C19E35DD600264C10 /* Build configuration list for PBXNativeTarget "FabAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE13E64D19E35DD600264C10 /* Debug */,
+				AE13E64E19E35DD600264C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE13E62219E35DD600264C10 /* Project object */;
+}
