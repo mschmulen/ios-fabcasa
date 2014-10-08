@@ -13,6 +13,8 @@
 		AE129FBE19E579A400C5A5D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE129FBD19E579A400C5A5D7 /* Images.xcassets */; };
 		AE129FC119E579A400C5A5D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE129FBF19E579A400C5A5D7 /* LaunchScreen.xib */; };
 		AE129FCD19E579A400C5A5D7 /* patterns_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FCC19E579A400C5A5D7 /* patterns_swiftTests.swift */; };
+		AE129FF419E57FA900C5A5D7 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FF319E57FA900C5A5D7 /* Singleton.swift */; };
+		AE129FF519E57FA900C5A5D7 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FF319E57FA900C5A5D7 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		AE129FC619E579A400C5A5D7 /* patterns-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "patterns-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE129FCB19E579A400C5A5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE129FCC19E579A400C5A5D7 /* patterns_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patterns_swiftTests.swift; sourceTree = "<group>"; };
+		AE129FF319E57FA900C5A5D7 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		AE129FB319E579A400C5A5D7 /* patterns-swift */ = {
 			isa = PBXGroup;
 			children = (
+				AE129FF219E57FA900C5A5D7 /* patterns */,
 				AE129FB619E579A400C5A5D7 /* AppDelegate.swift */,
 				AE129FB819E579A400C5A5D7 /* ViewController.swift */,
 				AE129FBA19E579A400C5A5D7 /* Main.storyboard */,
@@ -111,6 +115,14 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		AE129FF219E57FA900C5A5D7 /* patterns */ = {
+			isa = PBXGroup;
+			children = (
+				AE129FF319E57FA900C5A5D7 /* Singleton.swift */,
+			);
+			path = patterns;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -213,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE129FB919E579A400C5A5D7 /* ViewController.swift in Sources */,
+				AE129FF419E57FA900C5A5D7 /* Singleton.swift in Sources */,
 				AE129FB719E579A400C5A5D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE129FCD19E579A400C5A5D7 /* patterns_swiftTests.swift in Sources */,
+				AE129FF519E57FA900C5A5D7 /* Singleton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

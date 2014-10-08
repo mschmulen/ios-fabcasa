@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE129FF919E586EF00C5A5D7 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FF719E586EF00C5A5D7 /* SlideMenu.swift */; };
+		AE129FFA19E586EF00C5A5D7 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FF719E586EF00C5A5D7 /* SlideMenu.swift */; };
+		AE129FFB19E586EF00C5A5D7 /* SlideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FF819E586EF00C5A5D7 /* SlideMenuNavigationController.swift */; };
+		AE129FFC19E586EF00C5A5D7 /* SlideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FF819E586EF00C5A5D7 /* SlideMenuNavigationController.swift */; };
 		C99CC6E219DCB33D00063DD0 /* Fabcasa.h in Headers */ = {isa = PBXBuildFile; fileRef = C99CC6E119DCB33D00063DD0 /* Fabcasa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C99CC6EC19DCB33D00063DD0 /* FabcasaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC6EB19DCB33D00063DD0 /* FabcasaTests.swift */; };
 		C99CC7E419DDE4F600063DD0 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7E019DDE4F600063DD0 /* Graph.swift */; };
@@ -71,6 +75,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE129FF719E586EF00C5A5D7 /* SlideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		AE129FF819E586EF00C5A5D7 /* SlideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuNavigationController.swift; sourceTree = "<group>"; };
 		C99CC6DC19DCB33D00063DD0 /* Fabcasa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fabcasa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99CC6E019DCB33D00063DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99CC6E119DCB33D00063DD0 /* Fabcasa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fabcasa.h; sourceTree = "<group>"; };
@@ -128,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE129FF619E586EF00C5A5D7 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AE129FF719E586EF00C5A5D7 /* SlideMenu.swift */,
+				AE129FF819E586EF00C5A5D7 /* SlideMenuNavigationController.swift */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
 		C99CC6D219DCB33D00063DD0 = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +223,7 @@
 		C99CC7F019DDE51400063DD0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AE129FF619E586EF00C5A5D7 /* SlideMenu */,
 				C9A74A4619E2F41000E80951 /* ProductsViewController */,
 				C9A74A3F19E2F40300E80951 /* ProductDetailViewController */,
 				C9A74A3819DF648D00E80951 /* LoginViewController */,
@@ -451,6 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE129FFB19E586EF00C5A5D7 /* SlideMenuNavigationController.swift in Sources */,
 				C99CC7E419DDE4F600063DD0 /* Graph.swift in Sources */,
 				C9A74A4919E2F41000E80951 /* ProductsViewController.swift in Sources */,
 				C99CC7EE19DDE50400063DD0 /* DateExtension.swift in Sources */,
@@ -459,6 +476,7 @@
 				C99CC82419DDE51400063DD0 /* PickerViewController.swift in Sources */,
 				C99CC81C19DDE51400063DD0 /* MFMailViewController.swift in Sources */,
 				C99CC81819DDE51400063DD0 /* MessagingViewController.swift in Sources */,
+				AE129FF919E586EF00C5A5D7 /* SlideMenu.swift in Sources */,
 				C99CC82019DDE51400063DD0 /* MPCViewController.swift in Sources */,
 				C99CC7EA19DDE4F600063DD0 /* Stack.swift in Sources */,
 				C99CC80A19DDE51400063DD0 /* AnimationViewController.swift in Sources */,
@@ -477,10 +495,12 @@
 			files = (
 				C9BD0DEC19DDEA2E00878307 /* FabcasaTestsViewControllers.swift in Sources */,
 				C99CC7E519DDE4F600063DD0 /* Graph.swift in Sources */,
+				AE129FFC19E586EF00C5A5D7 /* SlideMenuNavigationController.swift in Sources */,
 				C99CC82119DDE51400063DD0 /* MPCViewController.swift in Sources */,
 				C99CC7EF19DDE50400063DD0 /* DateExtension.swift in Sources */,
 				C9A74A3C19DF648D00E80951 /* LoginViewController.swift in Sources */,
 				C99CC81519DDE51400063DD0 /* MessagingTableViewCell.swift in Sources */,
+				AE129FFA19E586EF00C5A5D7 /* SlideMenu.swift in Sources */,
 				C99CC80B19DDE51400063DD0 /* AnimationViewController.swift in Sources */,
 				C99CC81919DDE51400063DD0 /* MessagingViewController.swift in Sources */,
 				C99CC82F19DDE6A700063DD0 /* FabcasaTestsExtensions.swift in Sources */,

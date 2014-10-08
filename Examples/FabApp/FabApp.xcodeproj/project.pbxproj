@@ -15,6 +15,16 @@
 		AE129F7219E4560200C5A5D7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F7019E4560200C5A5D7 /* NavigationController.swift */; };
 		AE129F7419E4567400C5A5D7 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F7319E4567400C5A5D7 /* MenuTableViewController.swift */; };
 		AE129F7519E4567400C5A5D7 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129F7319E4567400C5A5D7 /* MenuTableViewController.swift */; };
+		AE12A00219E590B400C5A5D7 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FFE19E590B400C5A5D7 /* Graph.swift */; };
+		AE12A00319E590B400C5A5D7 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FFE19E590B400C5A5D7 /* Graph.swift */; };
+		AE12A00419E590B400C5A5D7 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FFF19E590B400C5A5D7 /* LinkedList.swift */; };
+		AE12A00519E590B400C5A5D7 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE129FFF19E590B400C5A5D7 /* LinkedList.swift */; };
+		AE12A00619E590B400C5A5D7 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12A00019E590B400C5A5D7 /* Queue.swift */; };
+		AE12A00719E590B400C5A5D7 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12A00019E590B400C5A5D7 /* Queue.swift */; };
+		AE12A00819E590B400C5A5D7 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12A00119E590B400C5A5D7 /* Stack.swift */; };
+		AE12A00919E590B400C5A5D7 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12A00119E590B400C5A5D7 /* Stack.swift */; };
+		AE12A00C19E590C700C5A5D7 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12A00B19E590C700C5A5D7 /* DataLoader.swift */; };
+		AE12A00D19E590C700C5A5D7 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE12A00B19E590C700C5A5D7 /* DataLoader.swift */; };
 		AE13E63019E35DD600264C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E62F19E35DD600264C10 /* AppDelegate.swift */; };
 		AE13E63219E35DD600264C10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE13E63119E35DD600264C10 /* ViewController.swift */; };
 		AE13E63519E35DD600264C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE13E63319E35DD600264C10 /* Main.storyboard */; };
@@ -86,6 +96,11 @@
 		AE129F6B19E4554B00C5A5D7 /* SlideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuNavigationController.swift; sourceTree = "<group>"; };
 		AE129F7019E4560200C5A5D7 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		AE129F7319E4567400C5A5D7 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		AE129FFE19E590B400C5A5D7 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		AE129FFF19E590B400C5A5D7 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		AE12A00019E590B400C5A5D7 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		AE12A00119E590B400C5A5D7 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		AE12A00B19E590C700C5A5D7 /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		AE13E62A19E35DD600264C10 /* FabApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FabApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE13E62E19E35DD600264C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE13E62F19E35DD600264C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +164,27 @@
 			path = SlideMenu;
 			sourceTree = "<group>";
 		};
+		AE129FFD19E590B400C5A5D7 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				AE129FFE19E590B400C5A5D7 /* Graph.swift */,
+				AE129FFF19E590B400C5A5D7 /* LinkedList.swift */,
+				AE12A00019E590B400C5A5D7 /* Queue.swift */,
+				AE12A00119E590B400C5A5D7 /* Stack.swift */,
+			);
+			name = DataStructures;
+			path = ../../../Fabcasa/DataStructures;
+			sourceTree = "<group>";
+		};
+		AE12A00A19E590C700C5A5D7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AE12A00B19E590C700C5A5D7 /* DataLoader.swift */,
+			);
+			name = Networking;
+			path = ../../../Fabcasa/Networking;
+			sourceTree = "<group>";
+		};
 		AE13E62119E35DD600264C10 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +206,8 @@
 		AE13E62C19E35DD600264C10 /* FabApp */ = {
 			isa = PBXGroup;
 			children = (
+				AE12A00A19E590C700C5A5D7 /* Networking */,
+				AE129FFD19E590B400C5A5D7 /* DataStructures */,
 				AE13E64F19E35DE600264C10 /* ViewControllers */,
 				AE13E62F19E35DD600264C10 /* AppDelegate.swift */,
 				AE13E63119E35DD600264C10 /* ViewController.swift */,
@@ -454,7 +492,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE129F6E19E4554B00C5A5D7 /* SlideMenuNavigationController.swift in Sources */,
+				AE12A00619E590B400C5A5D7 /* Queue.swift in Sources */,
+				AE12A00C19E590C700C5A5D7 /* DataLoader.swift in Sources */,
 				AE13E6B719E35DE600264C10 /* WebViewController.swift in Sources */,
+				AE12A00419E590B400C5A5D7 /* LinkedList.swift in Sources */,
 				AE13E68719E35DE600264C10 /* LoginViewController.swift in Sources */,
 				AE13E68B19E35DE600264C10 /* MapKitViewController.swift in Sources */,
 				AE13E69F19E35DE600264C10 /* PickerViewController.swift in Sources */,
@@ -467,9 +508,11 @@
 				AE13E63219E35DD600264C10 /* ViewController.swift in Sources */,
 				AE13E6A719E35DE600264C10 /* ProductsViewController.swift in Sources */,
 				AE13E6A319E35DE600264C10 /* ProductDetailViewController.swift in Sources */,
+				AE12A00819E590B400C5A5D7 /* Stack.swift in Sources */,
 				AE13E6AF19E35DE600264C10 /* TimerViewController.swift in Sources */,
 				AE13E68F19E35DE600264C10 /* MessagingTableViewCell.swift in Sources */,
 				AE129F7119E4560200C5A5D7 /* NavigationController.swift in Sources */,
+				AE12A00219E590B400C5A5D7 /* Graph.swift in Sources */,
 				AE13E63019E35DD600264C10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,19 +521,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE12A00D19E590C700C5A5D7 /* DataLoader.swift in Sources */,
 				AE13E69019E35DE600264C10 /* MessagingTableViewCell.swift in Sources */,
 				AE129F6D19E4554B00C5A5D7 /* SlideMenu.swift in Sources */,
 				AE13E6B819E35DE600264C10 /* WebViewController.swift in Sources */,
 				AE13E68819E35DE600264C10 /* LoginViewController.swift in Sources */,
 				AE129F6F19E4554B00C5A5D7 /* SlideMenuNavigationController.swift in Sources */,
 				AE13E6A819E35DE600264C10 /* ProductsViewController.swift in Sources */,
+				AE12A00319E590B400C5A5D7 /* Graph.swift in Sources */,
 				AE13E69419E35DE600264C10 /* MessagingViewController.swift in Sources */,
+				AE12A00519E590B400C5A5D7 /* LinkedList.swift in Sources */,
 				AE13E6B019E35DE600264C10 /* TimerViewController.swift in Sources */,
 				AE13E6B419E35DE600264C10 /* UserProfileViewController.swift in Sources */,
 				AE13E6A419E35DE600264C10 /* ProductDetailViewController.swift in Sources */,
 				AE13E68C19E35DE600264C10 /* MapKitViewController.swift in Sources */,
 				AE129F7519E4567400C5A5D7 /* MenuTableViewController.swift in Sources */,
 				AE129F7219E4560200C5A5D7 /* NavigationController.swift in Sources */,
+				AE12A00719E590B400C5A5D7 /* Queue.swift in Sources */,
+				AE12A00919E590B400C5A5D7 /* Stack.swift in Sources */,
 				AE13E6AC19E35DE600264C10 /* SettingsViewController.swift in Sources */,
 				AE13E6A019E35DE600264C10 /* PickerViewController.swift in Sources */,
 				AE13E69819E35DE600264C10 /* MFMailViewController.swift in Sources */,

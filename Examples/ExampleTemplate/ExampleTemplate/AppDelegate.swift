@@ -10,7 +10,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -19,7 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.backgroundColor = UIColor.redColor()
         //window!.rootViewController = ViewController()
         //window!.rootViewController = ViewController(nibName: "ViewController", bundle: nil)
-        window!.rootViewController = PickerViewController(nibName: "PickerViewController", bundle: nil)
+        //window!.rootViewController = PickerViewController(nibName: "PickerViewController", bundle: nil)
+        
+        //window!.rootViewController = LoginViewController(nibName: "LoginViewController", bundle: nil)
+        //window!.rootViewController = JavaScriptBridgeViewController(nibName: "JavaScriptBridgeViewController", bundle: nil)
+        
+        window!.rootViewController = PaintFillViewController(nibName: "PaintFillViewController", bundle: nil)
+        
         window!.makeKeyAndVisible()
         
         return true
