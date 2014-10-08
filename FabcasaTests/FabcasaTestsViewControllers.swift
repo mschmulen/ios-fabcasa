@@ -27,14 +27,11 @@ class FabcasaTestsViewControllers: XCTestCase {
     storyBoard = UIStoryboard(name:"Main", bundle:NSBundle(forClass: self.dynamicType))
     XCTAssert(storyboard != nil)
     
-    
-    
     ---
     
     var storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
     vc = storyboard.instantiateViewControllerWithIdentifier("LoginVC") as LoginViewController
     vc.loadView()
-    
     
     */
     
