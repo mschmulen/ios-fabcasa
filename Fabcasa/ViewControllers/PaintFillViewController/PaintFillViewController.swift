@@ -9,7 +9,20 @@
 import UIKit
 
 class PaintFillViewController: UIViewController {
-
+    
+    @IBAction func actionResetCanvas(sender: AnyObject) {
+        
+    }
+    
+    @IBAction func actionSetColorBlue(sender: AnyObject) {
+    }
+    @IBAction func actionSetColorRed(sender: AnyObject) {
+    }
+    @IBOutlet weak var actionSetColorBrown: UIButton!
+    
+    @IBOutlet weak var canvas: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
