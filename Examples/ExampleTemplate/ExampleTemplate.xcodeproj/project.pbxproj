@@ -106,6 +106,28 @@
 		C99CC78119DCB7ED00063DD0 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99CC76819DCB7ED00063DD0 /* PickerViewController.xib */; };
 		C99CC7C719DDD6AA00063DD0 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7C619DDD6AA00063DD0 /* CustomLabel.swift */; };
 		C99CC7C819DDD6AA00063DD0 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99CC7C619DDD6AA00063DD0 /* CustomLabel.swift */; };
+		C9ADBE2C19E61E53002A88F7 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2119E61E53002A88F7 /* Bar.swift */; };
+		C9ADBE2D19E61E53002A88F7 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2119E61E53002A88F7 /* Bar.swift */; };
+		C9ADBE2E19E61E53002A88F7 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2219E61E53002A88F7 /* BarChart.swift */; };
+		C9ADBE2F19E61E53002A88F7 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2219E61E53002A88F7 /* BarChart.swift */; };
+		C9ADBE3019E61E53002A88F7 /* ChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2319E61E53002A88F7 /* ChartDelegate.swift */; };
+		C9ADBE3119E61E53002A88F7 /* ChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2319E61E53002A88F7 /* ChartDelegate.swift */; };
+		C9ADBE3219E61E53002A88F7 /* ChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2419E61E53002A88F7 /* ChartLabel.swift */; };
+		C9ADBE3319E61E53002A88F7 /* ChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2419E61E53002A88F7 /* ChartLabel.swift */; };
+		C9ADBE3419E61E53002A88F7 /* ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2519E61E53002A88F7 /* ChartStyle.swift */; };
+		C9ADBE3519E61E53002A88F7 /* ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2519E61E53002A88F7 /* ChartStyle.swift */; };
+		C9ADBE3619E61E53002A88F7 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2619E61E53002A88F7 /* ChartValue.swift */; };
+		C9ADBE3719E61E53002A88F7 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2619E61E53002A88F7 /* ChartValue.swift */; };
+		C9ADBE3819E61E53002A88F7 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2719E61E53002A88F7 /* ChartView.swift */; };
+		C9ADBE3919E61E53002A88F7 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2719E61E53002A88F7 /* ChartView.swift */; };
+		C9ADBE3A19E61E53002A88F7 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2819E61E53002A88F7 /* ChartViewController.swift */; };
+		C9ADBE3B19E61E53002A88F7 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2819E61E53002A88F7 /* ChartViewController.swift */; };
+		C9ADBE3C19E61E53002A88F7 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE2919E61E53002A88F7 /* ChartViewController.xib */; };
+		C9ADBE3D19E61E53002A88F7 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE2919E61E53002A88F7 /* ChartViewController.xib */; };
+		C9ADBE3E19E61E53002A88F7 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2A19E61E53002A88F7 /* LineChart.swift */; };
+		C9ADBE3F19E61E53002A88F7 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2A19E61E53002A88F7 /* LineChart.swift */; };
+		C9ADBE4019E61E53002A88F7 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2B19E61E53002A88F7 /* LineChartData.swift */; };
+		C9ADBE4119E61E53002A88F7 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE2B19E61E53002A88F7 /* LineChartData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,6 +236,17 @@
 		C99CC76719DCB7ED00063DD0 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		C99CC76819DCB7ED00063DD0 /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
 		C99CC7C619DDD6AA00063DD0 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomLabel.swift; path = CustomLabel/CustomLabel.swift; sourceTree = "<group>"; };
+		C9ADBE2119E61E53002A88F7 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		C9ADBE2219E61E53002A88F7 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		C9ADBE2319E61E53002A88F7 /* ChartDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDelegate.swift; sourceTree = "<group>"; };
+		C9ADBE2419E61E53002A88F7 /* ChartLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartLabel.swift; sourceTree = "<group>"; };
+		C9ADBE2519E61E53002A88F7 /* ChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyle.swift; sourceTree = "<group>"; };
+		C9ADBE2619E61E53002A88F7 /* ChartValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartValue.swift; sourceTree = "<group>"; };
+		C9ADBE2719E61E53002A88F7 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		C9ADBE2819E61E53002A88F7 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		C9ADBE2919E61E53002A88F7 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
+		C9ADBE2A19E61E53002A88F7 /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		C9ADBE2B19E61E53002A88F7 /* LineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,6 +538,7 @@
 		C99CC75E19DCB7ED00063DD0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C9ADBE2019E61E53002A88F7 /* ChartViewController */,
 				AE12A07619E593A800C5A5D7 /* PaintFillViewController */,
 				AE12A06619E5923600C5A5D7 /* JavaScriptBridgeViewController */,
 				AE12A05319E591BD00C5A5D7 /* ListViewController */,
@@ -555,6 +589,24 @@
 				C99CC7C619DDD6AA00063DD0 /* CustomLabel.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C9ADBE2019E61E53002A88F7 /* ChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE2119E61E53002A88F7 /* Bar.swift */,
+				C9ADBE2219E61E53002A88F7 /* BarChart.swift */,
+				C9ADBE2319E61E53002A88F7 /* ChartDelegate.swift */,
+				C9ADBE2419E61E53002A88F7 /* ChartLabel.swift */,
+				C9ADBE2519E61E53002A88F7 /* ChartStyle.swift */,
+				C9ADBE2619E61E53002A88F7 /* ChartValue.swift */,
+				C9ADBE2719E61E53002A88F7 /* ChartView.swift */,
+				C9ADBE2819E61E53002A88F7 /* ChartViewController.swift */,
+				C9ADBE2919E61E53002A88F7 /* ChartViewController.xib */,
+				C9ADBE2A19E61E53002A88F7 /* LineChart.swift */,
+				C9ADBE2B19E61E53002A88F7 /* LineChartData.swift */,
+			);
+			path = ChartViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -728,6 +780,7 @@
 				AE12A06B19E5923600C5A5D7 /* JavaScriptBridgeViewController.xib in Resources */,
 				AE12A07B19E593A800C5A5D7 /* PaintFillViewController.xib in Resources */,
 				AE12A03B19E5913C00C5A5D7 /* SettingsViewController.xib in Resources */,
+				C9ADBE3C19E61E53002A88F7 /* ChartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,6 +798,7 @@
 				AE12A06C19E5923600C5A5D7 /* JavaScriptBridgeViewController.xib in Resources */,
 				AE12A04819E5913C00C5A5D7 /* UserProfileViewController.xib in Resources */,
 				AE12A03819E5913C00C5A5D7 /* ProductsViewController.xib in Resources */,
+				C9ADBE3D19E61E53002A88F7 /* ChartViewController.xib in Resources */,
 				C99CC78119DCB7ED00063DD0 /* PickerViewController.xib in Resources */,
 				AE12A04C19E5913C00C5A5D7 /* WebViewController.xib in Resources */,
 				C99CC69E19DCA99E00063DD0 /* ViewController.xib in Resources */,
@@ -795,12 +849,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE12A05619E591BD00C5A5D7 /* ListViewController.swift in Sources */,
+				C9ADBE2C19E61E53002A88F7 /* Bar.swift in Sources */,
+				C9ADBE4019E61E53002A88F7 /* LineChartData.swift in Sources */,
 				AE12A06E19E592E900C5A5D7 /* JSCodeBlock.swift in Sources */,
 				AE12A02919E5913C00C5A5D7 /* LoginViewController.swift in Sources */,
 				AE12A04519E5913C00C5A5D7 /* UserProfileViewController.swift in Sources */,
 				C99CC69B19DCA99E00063DD0 /* SwiftViewController.swift in Sources */,
+				C9ADBE3819E61E53002A88F7 /* ChartView.swift in Sources */,
+				C9ADBE3019E61E53002A88F7 /* ChartDelegate.swift in Sources */,
+				C9ADBE3219E61E53002A88F7 /* ChartLabel.swift in Sources */,
 				AE12A03919E5913C00C5A5D7 /* SettingsViewController.swift in Sources */,
 				AE12A03119E5913C00C5A5D7 /* ProductDetailViewController.swift in Sources */,
+				C9ADBE3E19E61E53002A88F7 /* LineChart.swift in Sources */,
 				AE12A02D19E5913C00C5A5D7 /* MapKitViewController.swift in Sources */,
 				AE12A03519E5913C00C5A5D7 /* ProductsViewController.swift in Sources */,
 				AE12A05B19E591C900C5A5D7 /* DataLoader.swift in Sources */,
@@ -809,13 +869,17 @@
 				C99CC67A19DCA97E00063DD0 /* AppDelegate.swift in Sources */,
 				AE12A03D19E5913C00C5A5D7 /* SlideMenu.swift in Sources */,
 				C99CC7C719DDD6AA00063DD0 /* CustomLabel.swift in Sources */,
+				C9ADBE3619E61E53002A88F7 /* ChartValue.swift in Sources */,
+				C9ADBE2E19E61E53002A88F7 /* BarChart.swift in Sources */,
 				AE12A04119E5913C00C5A5D7 /* TimerViewController.swift in Sources */,
+				C9ADBE3419E61E53002A88F7 /* ChartStyle.swift in Sources */,
 				AE12A03F19E5913C00C5A5D7 /* SlideMenuNavigationController.swift in Sources */,
 				C99CC77E19DCB7ED00063DD0 /* PickerViewController.swift in Sources */,
 				AE12A07919E593A800C5A5D7 /* PaintFillViewController.swift in Sources */,
 				C99CC77619DCB7ED00063DD0 /* MFMailViewController.swift in Sources */,
 				AE12A04919E5913C00C5A5D7 /* WebViewController.swift in Sources */,
 				AE12A05E19E591E000C5A5D7 /* User.swift in Sources */,
+				C9ADBE3A19E61E53002A88F7 /* ChartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -825,24 +889,34 @@
 			files = (
 				AE12A02A19E5913C00C5A5D7 /* LoginViewController.swift in Sources */,
 				C99CC77F19DCB7ED00063DD0 /* PickerViewController.swift in Sources */,
+				C9ADBE3B19E61E53002A88F7 /* ChartViewController.swift in Sources */,
+				C9ADBE3319E61E53002A88F7 /* ChartLabel.swift in Sources */,
+				C9ADBE3919E61E53002A88F7 /* ChartView.swift in Sources */,
 				AE12A02E19E5913C00C5A5D7 /* MapKitViewController.swift in Sources */,
+				C9ADBE3719E61E53002A88F7 /* ChartValue.swift in Sources */,
 				AE12A03A19E5913C00C5A5D7 /* SettingsViewController.swift in Sources */,
+				C9ADBE4119E61E53002A88F7 /* LineChartData.swift in Sources */,
 				AE12A04019E5913C00C5A5D7 /* SlideMenuNavigationController.swift in Sources */,
 				AE12A05C19E591C900C5A5D7 /* DataLoader.swift in Sources */,
 				C99CC7C819DDD6AA00063DD0 /* CustomLabel.swift in Sources */,
 				C99CC77719DCB7ED00063DD0 /* MFMailViewController.swift in Sources */,
 				AE12A03E19E5913C00C5A5D7 /* SlideMenu.swift in Sources */,
 				AE12A03219E5913C00C5A5D7 /* ProductDetailViewController.swift in Sources */,
+				C9ADBE3F19E61E53002A88F7 /* LineChart.swift in Sources */,
 				AE12A04619E5913C00C5A5D7 /* UserProfileViewController.swift in Sources */,
 				AE12A06F19E592E900C5A5D7 /* JSCodeBlock.swift in Sources */,
 				AE12A07A19E593A800C5A5D7 /* PaintFillViewController.swift in Sources */,
+				C9ADBE2D19E61E53002A88F7 /* Bar.swift in Sources */,
 				AE12A03619E5913C00C5A5D7 /* ProductsViewController.swift in Sources */,
 				AE12A06A19E5923600C5A5D7 /* JavaScriptBridgeViewController.swift in Sources */,
 				AE12A04219E5913C00C5A5D7 /* TimerViewController.swift in Sources */,
 				C99CC69C19DCA99E00063DD0 /* SwiftViewController.swift in Sources */,
 				AE12A05F19E591E000C5A5D7 /* User.swift in Sources */,
+				C9ADBE3119E61E53002A88F7 /* ChartDelegate.swift in Sources */,
+				C9ADBE2F19E61E53002A88F7 /* BarChart.swift in Sources */,
 				AE12A04A19E5913C00C5A5D7 /* WebViewController.swift in Sources */,
 				AE12A05719E591BD00C5A5D7 /* ListViewController.swift in Sources */,
+				C9ADBE3519E61E53002A88F7 /* ChartStyle.swift in Sources */,
 				C99CC69019DCA97E00063DD0 /* ExampleTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1099,6 +1173,7 @@
 				AEBE0AFF19E5FF9E00600AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEBE0B0119E5FF9E00600AD5 /* Build configuration list for PBXNativeTarget "ExampleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -1107,6 +1182,7 @@
 				AEBE0B0319E5FF9E00600AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99CC66F19DCA97E00063DD0 /* Build configuration list for PBXProject "ExampleTemplate" */ = {
 			isa = XCConfigurationList;

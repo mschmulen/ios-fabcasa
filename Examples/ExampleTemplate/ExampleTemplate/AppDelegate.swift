@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //window!.rootViewController = LoginViewController(nibName: "LoginViewController", bundle: nil)
         //window!.rootViewController = JavaScriptBridgeViewController(nibName: "JavaScriptBridgeViewController", bundle: nil)
-        window!.rootViewController = PaintFillViewController(nibName: "PaintFillViewController", bundle: nil)
-        //window!.rootViewController = ChartViewController(nibName: "ChartViewController", bundle: nil)
+        //window!.rootViewController = PaintFillViewController(nibName: "PaintFillViewController", bundle: nil)
+        window!.rootViewController = ChartViewController(nibName: "ChartViewController", bundle: nil)
         
         window!.makeKeyAndVisible()
         

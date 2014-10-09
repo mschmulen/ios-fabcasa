@@ -5,30 +5,32 @@
 //  Created by Matt Schmulen on 10/8/14.
 //  Copyright (c) 2014 Matthew Schmulen. All rights reserved.
 //
+// Reference credit to https://github.com/kevinzhow/PNChart-Swift
+//
 
 import UIKit
 
-@IBDesignable public class ChartView: UIView  {
+@IBDesignable class ChartView: UIView  {
     
     
-    @IBInspectable public var borderColor: UIColor = UIColor.clearColor() {
+    
+    @IBInspectable var borderColor: UIColor = UIColor.clearColor() {
         didSet {
             layer.borderColor = borderColor.CGColor
         }
     }
     
-    @IBInspectable public var borderWidth: CGFloat = 0 {
+    @IBInspectable var borderWidth: CGFloat = 0 {
         didSet {
             layer.borderWidth = borderWidth
         }
     }
     
-    @IBInspectable public var cornerRadius: CGFloat = 0 {
+    @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = cornerRadius
         }
     }
-
     
     override public func awakeFromNib() {
         super.awakeFromNib()
@@ -37,16 +39,13 @@ import UIKit
     required public init(coder: NSCoder) {
         super.init(coder: coder)
     }
-
+    
     override public func prepareForInterfaceBuilder() {
-        /*
-        if countElements(self.title) == 0 {
-            self.title = "Line Chart"
-        }
-        */
+        //if countElements(self.title) == 0 {
+        //    self.title = "Line Chart"
+        //}
     }
-
-    /*
+    
     @IBInspectable var integer: Int = 0
     @IBInspectable var float: CGFloat = 0
     @IBInspectable var double: Double = 0
@@ -56,22 +55,19 @@ import UIKit
     @IBInspectable var color: UIColor = UIColor.clearColor()
     @IBInspectable var string: String = "We ❤ Swift"
     @IBInspectable var bool: Bool = false
-    */
     
     //@IBInspectable var borderColor: UIColor = UIColor.clearColor()
     //@IBInspectable var borderWidth: CGFloat = 0
     //@IBInspectable var cornerRadius: CGFloat = 0
-
+    
     /*
     let trackLayer = CALayer()
     let lowerThumbLayer = CALayer()
     let upperThumbLayer = CALayer()
     
-    
     var CurrentChartLabelArray:[String] = ["SEP 1","SEP 2","SEP 3","SEP 4","SEP 5","SEP 6","SEP 7"]
     var CurrentChartDataArray:[CGFloat] = [60.1, 160.1, 126.4, 262.2, 186.2, 127.2, 176.2]
     */
-    
     
     /*
     // Chart Title
@@ -81,7 +77,6 @@ import UIKit
             self.titleLabel.text = title
         }
     }
-    
     */
     
     /*

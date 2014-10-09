@@ -621,6 +621,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChartExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -631,6 +632,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChartExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -763,6 +765,7 @@
 				AEBE0B5019E600CC00600AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEBE0B5119E600CC00600AD5 /* Build configuration list for PBXNativeTarget "ChartExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -771,6 +774,7 @@
 				AEBE0B5319E600CC00600AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEBE0B7119E600DF00600AD5 /* Build configuration list for PBXNativeTarget "ChartLibrary" */ = {
 			isa = XCConfigurationList;
@@ -779,6 +783,7 @@
 				AEBE0B7319E600DF00600AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEBE0B7519E600DF00600AD5 /* Build configuration list for PBXNativeTarget "ChartLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -787,6 +792,7 @@
 				AEBE0B7719E600DF00600AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
