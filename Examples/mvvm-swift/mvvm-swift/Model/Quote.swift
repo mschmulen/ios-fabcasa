@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class Quote {
+    let content:String
+    let scene:String
+    
+    init( content:String , scene:String )
+    {
+        self.content = content
+        self.scene = scene
+    }
+}

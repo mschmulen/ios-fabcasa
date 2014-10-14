@@ -13,32 +13,104 @@
 		AEBE0B3C19E600CC00600AD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBE0B3B19E600CC00600AD5 /* Images.xcassets */; };
 		AEBE0B3F19E600CC00600AD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBE0B3D19E600CC00600AD5 /* LaunchScreen.xib */; };
 		AEBE0B4B19E600CC00600AD5 /* ChartExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B4A19E600CC00600AD5 /* ChartExampleTests.swift */; };
-		AEBE0B5E19E600DF00600AD5 /* ChartLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBE0B5D19E600DF00600AD5 /* ChartLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEBE0B6A19E600DF00600AD5 /* ChartLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B6919E600DF00600AD5 /* ChartLibraryTests.swift */; };
-		AEBE0B6D19E600DF00600AD5 /* ChartLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBE0B5919E600DF00600AD5 /* ChartLibrary.framework */; };
-		AEBE0B6E19E600DF00600AD5 /* ChartLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEBE0B5919E600DF00600AD5 /* ChartLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AEBE0BC219E600FE00600AD5 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B7E19E600FE00600AD5 /* Bar.swift */; };
-		AEBE0BC319E600FE00600AD5 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B7E19E600FE00600AD5 /* Bar.swift */; };
-		AEBE0BC419E600FE00600AD5 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B7F19E600FE00600AD5 /* BarChart.swift */; };
-		AEBE0BC519E600FE00600AD5 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B7F19E600FE00600AD5 /* BarChart.swift */; };
-		AEBE0BC619E600FE00600AD5 /* ChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8019E600FE00600AD5 /* ChartDelegate.swift */; };
-		AEBE0BC719E600FE00600AD5 /* ChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8019E600FE00600AD5 /* ChartDelegate.swift */; };
-		AEBE0BC819E600FE00600AD5 /* ChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8119E600FE00600AD5 /* ChartLabel.swift */; };
-		AEBE0BC919E600FE00600AD5 /* ChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8119E600FE00600AD5 /* ChartLabel.swift */; };
-		AEBE0BCA19E600FE00600AD5 /* ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8219E600FE00600AD5 /* ChartStyle.swift */; };
-		AEBE0BCB19E600FE00600AD5 /* ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8219E600FE00600AD5 /* ChartStyle.swift */; };
-		AEBE0BCC19E600FE00600AD5 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8319E600FE00600AD5 /* ChartValue.swift */; };
-		AEBE0BCD19E600FE00600AD5 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8319E600FE00600AD5 /* ChartValue.swift */; };
-		AEBE0BCE19E600FE00600AD5 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8419E600FE00600AD5 /* ChartView.swift */; };
-		AEBE0BCF19E600FE00600AD5 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8419E600FE00600AD5 /* ChartView.swift */; };
-		AEBE0BD019E600FE00600AD5 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8519E600FE00600AD5 /* ChartViewController.swift */; };
-		AEBE0BD119E600FE00600AD5 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8519E600FE00600AD5 /* ChartViewController.swift */; };
-		AEBE0BD219E600FE00600AD5 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBE0B8619E600FE00600AD5 /* ChartViewController.xib */; };
-		AEBE0BD319E600FE00600AD5 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBE0B8619E600FE00600AD5 /* ChartViewController.xib */; };
-		AEBE0BD419E600FE00600AD5 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8719E600FE00600AD5 /* LineChart.swift */; };
-		AEBE0BD519E600FE00600AD5 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8719E600FE00600AD5 /* LineChart.swift */; };
-		AEBE0BD619E600FE00600AD5 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8819E600FE00600AD5 /* LineChartData.swift */; };
-		AEBE0BD719E600FE00600AD5 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE0B8819E600FE00600AD5 /* LineChartData.swift */; };
+		C9ADBE8719E6E8D4002A88F7 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4419E6E8D4002A88F7 /* AnimationViewController.swift */; };
+		C9ADBE8819E6E8D4002A88F7 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4419E6E8D4002A88F7 /* AnimationViewController.swift */; };
+		C9ADBE8919E6E8D4002A88F7 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE4519E6E8D4002A88F7 /* AnimationViewController.xib */; };
+		C9ADBE8A19E6E8D4002A88F7 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE4519E6E8D4002A88F7 /* AnimationViewController.xib */; };
+		C9ADBE8B19E6E8D4002A88F7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4619E6E8D4002A88F7 /* UIViewExtension.swift */; };
+		C9ADBE8C19E6E8D4002A88F7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4619E6E8D4002A88F7 /* UIViewExtension.swift */; };
+		C9ADBE8D19E6E8D4002A88F7 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4819E6E8D4002A88F7 /* Bar.swift */; };
+		C9ADBE8E19E6E8D4002A88F7 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4819E6E8D4002A88F7 /* Bar.swift */; };
+		C9ADBE8F19E6E8D4002A88F7 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4919E6E8D4002A88F7 /* BarChart.swift */; };
+		C9ADBE9019E6E8D4002A88F7 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4919E6E8D4002A88F7 /* BarChart.swift */; };
+		C9ADBE9119E6E8D4002A88F7 /* ChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4A19E6E8D4002A88F7 /* ChartDelegate.swift */; };
+		C9ADBE9219E6E8D4002A88F7 /* ChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4A19E6E8D4002A88F7 /* ChartDelegate.swift */; };
+		C9ADBE9319E6E8D4002A88F7 /* ChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4B19E6E8D4002A88F7 /* ChartLabel.swift */; };
+		C9ADBE9419E6E8D4002A88F7 /* ChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4B19E6E8D4002A88F7 /* ChartLabel.swift */; };
+		C9ADBE9519E6E8D4002A88F7 /* ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4C19E6E8D4002A88F7 /* ChartStyle.swift */; };
+		C9ADBE9619E6E8D4002A88F7 /* ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4C19E6E8D4002A88F7 /* ChartStyle.swift */; };
+		C9ADBE9719E6E8D4002A88F7 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4D19E6E8D4002A88F7 /* ChartValue.swift */; };
+		C9ADBE9819E6E8D4002A88F7 /* ChartValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4D19E6E8D4002A88F7 /* ChartValue.swift */; };
+		C9ADBE9919E6E8D4002A88F7 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4E19E6E8D4002A88F7 /* ChartView.swift */; };
+		C9ADBE9A19E6E8D4002A88F7 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4E19E6E8D4002A88F7 /* ChartView.swift */; };
+		C9ADBE9B19E6E8D4002A88F7 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4F19E6E8D4002A88F7 /* ChartViewController.swift */; };
+		C9ADBE9C19E6E8D4002A88F7 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE4F19E6E8D4002A88F7 /* ChartViewController.swift */; };
+		C9ADBE9D19E6E8D4002A88F7 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE5019E6E8D4002A88F7 /* ChartViewController.xib */; };
+		C9ADBE9E19E6E8D4002A88F7 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE5019E6E8D4002A88F7 /* ChartViewController.xib */; };
+		C9ADBE9F19E6E8D4002A88F7 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5119E6E8D4002A88F7 /* LineChart.swift */; };
+		C9ADBEA019E6E8D4002A88F7 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5119E6E8D4002A88F7 /* LineChart.swift */; };
+		C9ADBEA119E6E8D4002A88F7 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5219E6E8D4002A88F7 /* LineChartData.swift */; };
+		C9ADBEA219E6E8D4002A88F7 /* LineChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5219E6E8D4002A88F7 /* LineChartData.swift */; };
+		C9ADBEA319E6E8D4002A88F7 /* JavaScriptBridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5519E6E8D4002A88F7 /* JavaScriptBridgeViewController.swift */; };
+		C9ADBEA419E6E8D4002A88F7 /* JavaScriptBridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5519E6E8D4002A88F7 /* JavaScriptBridgeViewController.swift */; };
+		C9ADBEA519E6E8D4002A88F7 /* JavaScriptBridgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE5619E6E8D4002A88F7 /* JavaScriptBridgeViewController.xib */; };
+		C9ADBEA619E6E8D4002A88F7 /* JavaScriptBridgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE5619E6E8D4002A88F7 /* JavaScriptBridgeViewController.xib */; };
+		C9ADBEA719E6E8D4002A88F7 /* JSCodeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5719E6E8D4002A88F7 /* JSCodeBlock.swift */; };
+		C9ADBEA819E6E8D4002A88F7 /* JSCodeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5719E6E8D4002A88F7 /* JSCodeBlock.swift */; };
+		C9ADBEA919E6E8D4002A88F7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5919E6E8D4002A88F7 /* ListViewController.swift */; };
+		C9ADBEAA19E6E8D4002A88F7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5919E6E8D4002A88F7 /* ListViewController.swift */; };
+		C9ADBEAB19E6E8D4002A88F7 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE5A19E6E8D4002A88F7 /* ListViewController.xib */; };
+		C9ADBEAC19E6E8D4002A88F7 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE5A19E6E8D4002A88F7 /* ListViewController.xib */; };
+		C9ADBEAD19E6E8D4002A88F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5C19E6E8D4002A88F7 /* LoginViewController.swift */; };
+		C9ADBEAE19E6E8D4002A88F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5C19E6E8D4002A88F7 /* LoginViewController.swift */; };
+		C9ADBEAF19E6E8D4002A88F7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE5D19E6E8D4002A88F7 /* LoginViewController.xib */; };
+		C9ADBEB019E6E8D4002A88F7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE5D19E6E8D4002A88F7 /* LoginViewController.xib */; };
+		C9ADBEB119E6E8D4002A88F7 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5F19E6E8D4002A88F7 /* MapKitViewController.swift */; };
+		C9ADBEB219E6E8D4002A88F7 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE5F19E6E8D4002A88F7 /* MapKitViewController.swift */; };
+		C9ADBEB319E6E8D4002A88F7 /* MapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6019E6E8D4002A88F7 /* MapKitViewController.xib */; };
+		C9ADBEB419E6E8D4002A88F7 /* MapKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6019E6E8D4002A88F7 /* MapKitViewController.xib */; };
+		C9ADBEB519E6E8D4002A88F7 /* MessagingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6219E6E8D4002A88F7 /* MessagingTableViewCell.swift */; };
+		C9ADBEB619E6E8D4002A88F7 /* MessagingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6219E6E8D4002A88F7 /* MessagingTableViewCell.swift */; };
+		C9ADBEB719E6E8D4002A88F7 /* MessagingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6319E6E8D4002A88F7 /* MessagingTableViewCell.xib */; };
+		C9ADBEB819E6E8D4002A88F7 /* MessagingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6319E6E8D4002A88F7 /* MessagingTableViewCell.xib */; };
+		C9ADBEB919E6E8D4002A88F7 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6419E6E8D4002A88F7 /* MessagingViewController.swift */; };
+		C9ADBEBA19E6E8D4002A88F7 /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6419E6E8D4002A88F7 /* MessagingViewController.swift */; };
+		C9ADBEBB19E6E8D4002A88F7 /* MessagingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6519E6E8D4002A88F7 /* MessagingViewController.xib */; };
+		C9ADBEBC19E6E8D4002A88F7 /* MessagingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6519E6E8D4002A88F7 /* MessagingViewController.xib */; };
+		C9ADBEBD19E6E8D4002A88F7 /* MFMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6719E6E8D4002A88F7 /* MFMailViewController.swift */; };
+		C9ADBEBE19E6E8D4002A88F7 /* MFMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6719E6E8D4002A88F7 /* MFMailViewController.swift */; };
+		C9ADBEBF19E6E8D4002A88F7 /* MFMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6819E6E8D4002A88F7 /* MFMailViewController.xib */; };
+		C9ADBEC019E6E8D4002A88F7 /* MFMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6819E6E8D4002A88F7 /* MFMailViewController.xib */; };
+		C9ADBEC119E6E8D4002A88F7 /* MPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6A19E6E8D4002A88F7 /* MPCViewController.swift */; };
+		C9ADBEC219E6E8D4002A88F7 /* MPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6A19E6E8D4002A88F7 /* MPCViewController.swift */; };
+		C9ADBEC319E6E8D4002A88F7 /* MPCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6B19E6E8D4002A88F7 /* MPCViewController.xib */; };
+		C9ADBEC419E6E8D4002A88F7 /* MPCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6B19E6E8D4002A88F7 /* MPCViewController.xib */; };
+		C9ADBEC519E6E8D4002A88F7 /* PaintFillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6D19E6E8D4002A88F7 /* PaintFillViewController.swift */; };
+		C9ADBEC619E6E8D4002A88F7 /* PaintFillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE6D19E6E8D4002A88F7 /* PaintFillViewController.swift */; };
+		C9ADBEC719E6E8D4002A88F7 /* PaintFillViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6E19E6E8D4002A88F7 /* PaintFillViewController.xib */; };
+		C9ADBEC819E6E8D4002A88F7 /* PaintFillViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE6E19E6E8D4002A88F7 /* PaintFillViewController.xib */; };
+		C9ADBEC919E6E8D4002A88F7 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7019E6E8D4002A88F7 /* PickerViewController.swift */; };
+		C9ADBECA19E6E8D4002A88F7 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7019E6E8D4002A88F7 /* PickerViewController.swift */; };
+		C9ADBECB19E6E8D4002A88F7 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE7119E6E8D4002A88F7 /* PickerViewController.xib */; };
+		C9ADBECC19E6E8D4002A88F7 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE7119E6E8D4002A88F7 /* PickerViewController.xib */; };
+		C9ADBECD19E6E8D4002A88F7 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7319E6E8D4002A88F7 /* ProductDetailViewController.swift */; };
+		C9ADBECE19E6E8D4002A88F7 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7319E6E8D4002A88F7 /* ProductDetailViewController.swift */; };
+		C9ADBECF19E6E8D4002A88F7 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE7419E6E8D4002A88F7 /* ProductDetailViewController.xib */; };
+		C9ADBED019E6E8D4002A88F7 /* ProductDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE7419E6E8D4002A88F7 /* ProductDetailViewController.xib */; };
+		C9ADBED119E6E8D4002A88F7 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7619E6E8D4002A88F7 /* ProductsViewController.swift */; };
+		C9ADBED219E6E8D4002A88F7 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7619E6E8D4002A88F7 /* ProductsViewController.swift */; };
+		C9ADBED319E6E8D4002A88F7 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE7719E6E8D4002A88F7 /* ProductsViewController.xib */; };
+		C9ADBED419E6E8D4002A88F7 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE7719E6E8D4002A88F7 /* ProductsViewController.xib */; };
+		C9ADBED519E6E8D4002A88F7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7919E6E8D4002A88F7 /* SettingsViewController.swift */; };
+		C9ADBED619E6E8D4002A88F7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7919E6E8D4002A88F7 /* SettingsViewController.swift */; };
+		C9ADBED719E6E8D4002A88F7 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE7A19E6E8D4002A88F7 /* SettingsViewController.xib */; };
+		C9ADBED819E6E8D4002A88F7 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE7A19E6E8D4002A88F7 /* SettingsViewController.xib */; };
+		C9ADBED919E6E8D4002A88F7 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7C19E6E8D4002A88F7 /* SlideMenu.swift */; };
+		C9ADBEDA19E6E8D4002A88F7 /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7C19E6E8D4002A88F7 /* SlideMenu.swift */; };
+		C9ADBEDB19E6E8D4002A88F7 /* SlideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7D19E6E8D4002A88F7 /* SlideMenuNavigationController.swift */; };
+		C9ADBEDC19E6E8D4002A88F7 /* SlideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7D19E6E8D4002A88F7 /* SlideMenuNavigationController.swift */; };
+		C9ADBEDD19E6E8D4002A88F7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7F19E6E8D4002A88F7 /* TimerViewController.swift */; };
+		C9ADBEDE19E6E8D4002A88F7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE7F19E6E8D4002A88F7 /* TimerViewController.swift */; };
+		C9ADBEDF19E6E8D4002A88F7 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE8019E6E8D4002A88F7 /* TimerViewController.xib */; };
+		C9ADBEE019E6E8D4002A88F7 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE8019E6E8D4002A88F7 /* TimerViewController.xib */; };
+		C9ADBEE119E6E8D4002A88F7 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE8219E6E8D4002A88F7 /* UserProfileViewController.swift */; };
+		C9ADBEE219E6E8D4002A88F7 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE8219E6E8D4002A88F7 /* UserProfileViewController.swift */; };
+		C9ADBEE319E6E8D4002A88F7 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE8319E6E8D4002A88F7 /* UserProfileViewController.xib */; };
+		C9ADBEE419E6E8D4002A88F7 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE8319E6E8D4002A88F7 /* UserProfileViewController.xib */; };
+		C9ADBEE519E6E8D4002A88F7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE8519E6E8D4002A88F7 /* WebViewController.swift */; };
+		C9ADBEE619E6E8D4002A88F7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ADBE8519E6E8D4002A88F7 /* WebViewController.swift */; };
+		C9ADBEE719E6E8D4002A88F7 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE8619E6E8D4002A88F7 /* WebViewController.xib */; };
+		C9ADBEE819E6E8D4002A88F7 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ADBE8619E6E8D4002A88F7 /* WebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,27 +121,6 @@
 			remoteGlobalIDString = AEBE0B2E19E600CC00600AD5;
 			remoteInfo = ChartExample;
 		};
-		AEBE0B6419E600DF00600AD5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AEBE0B2719E600CC00600AD5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AEBE0B2E19E600CC00600AD5;
-			remoteInfo = ChartExample;
-		};
-		AEBE0B6B19E600DF00600AD5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AEBE0B2719E600CC00600AD5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AEBE0B5819E600DF00600AD5;
-			remoteInfo = ChartLibrary;
-		};
-		AEBE0B6F19E600DF00600AD5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AEBE0B2719E600CC00600AD5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AEBE0B5819E600DF00600AD5;
-			remoteInfo = ChartLibrary;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,7 +130,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AEBE0B6E19E600DF00600AD5 /* ChartLibrary.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,23 +147,55 @@
 		AEBE0B4419E600CC00600AD5 /* ChartExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBE0B4919E600CC00600AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEBE0B4A19E600CC00600AD5 /* ChartExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartExampleTests.swift; sourceTree = "<group>"; };
-		AEBE0B5919E600DF00600AD5 /* ChartLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChartLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEBE0B5C19E600DF00600AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEBE0B5D19E600DF00600AD5 /* ChartLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartLibrary.h; sourceTree = "<group>"; };
-		AEBE0B6319E600DF00600AD5 /* ChartLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEBE0B6819E600DF00600AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEBE0B6919E600DF00600AD5 /* ChartLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartLibraryTests.swift; sourceTree = "<group>"; };
-		AEBE0B7E19E600FE00600AD5 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
-		AEBE0B7F19E600FE00600AD5 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
-		AEBE0B8019E600FE00600AD5 /* ChartDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDelegate.swift; sourceTree = "<group>"; };
-		AEBE0B8119E600FE00600AD5 /* ChartLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartLabel.swift; sourceTree = "<group>"; };
-		AEBE0B8219E600FE00600AD5 /* ChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyle.swift; sourceTree = "<group>"; };
-		AEBE0B8319E600FE00600AD5 /* ChartValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartValue.swift; sourceTree = "<group>"; };
-		AEBE0B8419E600FE00600AD5 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
-		AEBE0B8519E600FE00600AD5 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
-		AEBE0B8619E600FE00600AD5 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
-		AEBE0B8719E600FE00600AD5 /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
-		AEBE0B8819E600FE00600AD5 /* LineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartData.swift; sourceTree = "<group>"; };
+		C9ADBE4419E6E8D4002A88F7 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		C9ADBE4519E6E8D4002A88F7 /* AnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
+		C9ADBE4619E6E8D4002A88F7 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C9ADBE4819E6E8D4002A88F7 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		C9ADBE4919E6E8D4002A88F7 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		C9ADBE4A19E6E8D4002A88F7 /* ChartDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDelegate.swift; sourceTree = "<group>"; };
+		C9ADBE4B19E6E8D4002A88F7 /* ChartLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartLabel.swift; sourceTree = "<group>"; };
+		C9ADBE4C19E6E8D4002A88F7 /* ChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyle.swift; sourceTree = "<group>"; };
+		C9ADBE4D19E6E8D4002A88F7 /* ChartValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartValue.swift; sourceTree = "<group>"; };
+		C9ADBE4E19E6E8D4002A88F7 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		C9ADBE4F19E6E8D4002A88F7 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		C9ADBE5019E6E8D4002A88F7 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
+		C9ADBE5119E6E8D4002A88F7 /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		C9ADBE5219E6E8D4002A88F7 /* LineChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartData.swift; sourceTree = "<group>"; };
+		C9ADBE5519E6E8D4002A88F7 /* JavaScriptBridgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaScriptBridgeViewController.swift; sourceTree = "<group>"; };
+		C9ADBE5619E6E8D4002A88F7 /* JavaScriptBridgeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JavaScriptBridgeViewController.xib; sourceTree = "<group>"; };
+		C9ADBE5719E6E8D4002A88F7 /* JSCodeBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCodeBlock.swift; sourceTree = "<group>"; };
+		C9ADBE5919E6E8D4002A88F7 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		C9ADBE5A19E6E8D4002A88F7 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		C9ADBE5C19E6E8D4002A88F7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C9ADBE5D19E6E8D4002A88F7 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C9ADBE5F19E6E8D4002A88F7 /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		C9ADBE6019E6E8D4002A88F7 /* MapKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapKitViewController.xib; sourceTree = "<group>"; };
+		C9ADBE6219E6E8D4002A88F7 /* MessagingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingTableViewCell.swift; sourceTree = "<group>"; };
+		C9ADBE6319E6E8D4002A88F7 /* MessagingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagingTableViewCell.xib; sourceTree = "<group>"; };
+		C9ADBE6419E6E8D4002A88F7 /* MessagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		C9ADBE6519E6E8D4002A88F7 /* MessagingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagingViewController.xib; sourceTree = "<group>"; };
+		C9ADBE6719E6E8D4002A88F7 /* MFMailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFMailViewController.swift; sourceTree = "<group>"; };
+		C9ADBE6819E6E8D4002A88F7 /* MFMailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFMailViewController.xib; sourceTree = "<group>"; };
+		C9ADBE6A19E6E8D4002A88F7 /* MPCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCViewController.swift; sourceTree = "<group>"; };
+		C9ADBE6B19E6E8D4002A88F7 /* MPCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPCViewController.xib; sourceTree = "<group>"; };
+		C9ADBE6D19E6E8D4002A88F7 /* PaintFillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintFillViewController.swift; sourceTree = "<group>"; };
+		C9ADBE6E19E6E8D4002A88F7 /* PaintFillViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaintFillViewController.xib; sourceTree = "<group>"; };
+		C9ADBE7019E6E8D4002A88F7 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		C9ADBE7119E6E8D4002A88F7 /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		C9ADBE7319E6E8D4002A88F7 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		C9ADBE7419E6E8D4002A88F7 /* ProductDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailViewController.xib; sourceTree = "<group>"; };
+		C9ADBE7619E6E8D4002A88F7 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		C9ADBE7719E6E8D4002A88F7 /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
+		C9ADBE7919E6E8D4002A88F7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C9ADBE7A19E6E8D4002A88F7 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		C9ADBE7C19E6E8D4002A88F7 /* SlideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		C9ADBE7D19E6E8D4002A88F7 /* SlideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuNavigationController.swift; sourceTree = "<group>"; };
+		C9ADBE7F19E6E8D4002A88F7 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		C9ADBE8019E6E8D4002A88F7 /* TimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		C9ADBE8219E6E8D4002A88F7 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		C9ADBE8319E6E8D4002A88F7 /* UserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileViewController.xib; sourceTree = "<group>"; };
+		C9ADBE8519E6E8D4002A88F7 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C9ADBE8619E6E8D4002A88F7 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,25 +203,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBE0B6D19E600DF00600AD5 /* ChartLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AEBE0B4119E600CC00600AD5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEBE0B5519E600DF00600AD5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEBE0B6019E600DF00600AD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,8 +221,6 @@
 			children = (
 				AEBE0B3119E600CC00600AD5 /* ChartExample */,
 				AEBE0B4719E600CC00600AD5 /* ChartExampleTests */,
-				AEBE0B5A19E600DF00600AD5 /* ChartLibrary */,
-				AEBE0B6619E600DF00600AD5 /* ChartLibraryTests */,
 				AEBE0B3019E600CC00600AD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,8 +230,6 @@
 			children = (
 				AEBE0B2F19E600CC00600AD5 /* ChartExample.app */,
 				AEBE0B4419E600CC00600AD5 /* ChartExampleTests.xctest */,
-				AEBE0B5919E600DF00600AD5 /* ChartLibrary.framework */,
-				AEBE0B6319E600DF00600AD5 /* ChartLibraryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +237,7 @@
 		AEBE0B3119E600CC00600AD5 /* ChartExample */ = {
 			isa = PBXGroup;
 			children = (
+				C9ADBE4219E6E8D4002A88F7 /* ViewControllers */,
 				AEBE0B3419E600CC00600AD5 /* AppDelegate.swift */,
 				AEBE0B3619E600CC00600AD5 /* ViewController.swift */,
 				AEBE0B3819E600CC00600AD5 /* Main.storyboard */,
@@ -209,80 +273,216 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AEBE0B5A19E600DF00600AD5 /* ChartLibrary */ = {
+		C9ADBE4219E6E8D4002A88F7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AEBE0B7819E600FE00600AD5 /* ViewControllers */,
-				AEBE0B5D19E600DF00600AD5 /* ChartLibrary.h */,
-				AEBE0B5B19E600DF00600AD5 /* Supporting Files */,
-			);
-			path = ChartLibrary;
-			sourceTree = "<group>";
-		};
-		AEBE0B5B19E600DF00600AD5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AEBE0B5C19E600DF00600AD5 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AEBE0B6619E600DF00600AD5 /* ChartLibraryTests */ = {
-			isa = PBXGroup;
-			children = (
-				AEBE0B6919E600DF00600AD5 /* ChartLibraryTests.swift */,
-				AEBE0B6719E600DF00600AD5 /* Supporting Files */,
-			);
-			path = ChartLibraryTests;
-			sourceTree = "<group>";
-		};
-		AEBE0B6719E600DF00600AD5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				AEBE0B6819E600DF00600AD5 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AEBE0B7819E600FE00600AD5 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				AEBE0B7D19E600FE00600AD5 /* ChartViewController */,
+				C9ADBE4319E6E8D4002A88F7 /* AnimationViewController */,
+				C9ADBE4719E6E8D4002A88F7 /* ChartViewController */,
+				C9ADBE5319E6E8D4002A88F7 /* IBeaconViewController */,
+				C9ADBE5419E6E8D4002A88F7 /* JavaScriptBridgeViewController */,
+				C9ADBE5819E6E8D4002A88F7 /* ListViewController */,
+				C9ADBE5B19E6E8D4002A88F7 /* LoginViewController */,
+				C9ADBE5E19E6E8D4002A88F7 /* MapKitViewController */,
+				C9ADBE6119E6E8D4002A88F7 /* MessagingViewController */,
+				C9ADBE6619E6E8D4002A88F7 /* MFMailViewController */,
+				C9ADBE6919E6E8D4002A88F7 /* MPCViewController */,
+				C9ADBE6C19E6E8D4002A88F7 /* PaintFillViewController */,
+				C9ADBE6F19E6E8D4002A88F7 /* PickerViewController */,
+				C9ADBE7219E6E8D4002A88F7 /* ProductDetailViewController */,
+				C9ADBE7519E6E8D4002A88F7 /* ProductsViewController */,
+				C9ADBE7819E6E8D4002A88F7 /* SettingsViewController */,
+				C9ADBE7B19E6E8D4002A88F7 /* SlideMenu */,
+				C9ADBE7E19E6E8D4002A88F7 /* TimerViewController */,
+				C9ADBE8119E6E8D4002A88F7 /* UserProfileViewController */,
+				C9ADBE8419E6E8D4002A88F7 /* WebViewController */,
 			);
 			name = ViewControllers;
 			path = ../../../Fabcasa/ViewControllers;
 			sourceTree = "<group>";
 		};
-		AEBE0B7D19E600FE00600AD5 /* ChartViewController */ = {
+		C9ADBE4319E6E8D4002A88F7 /* AnimationViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AEBE0B7E19E600FE00600AD5 /* Bar.swift */,
-				AEBE0B7F19E600FE00600AD5 /* BarChart.swift */,
-				AEBE0B8019E600FE00600AD5 /* ChartDelegate.swift */,
-				AEBE0B8119E600FE00600AD5 /* ChartLabel.swift */,
-				AEBE0B8219E600FE00600AD5 /* ChartStyle.swift */,
-				AEBE0B8319E600FE00600AD5 /* ChartValue.swift */,
-				AEBE0B8419E600FE00600AD5 /* ChartView.swift */,
-				AEBE0B8519E600FE00600AD5 /* ChartViewController.swift */,
-				AEBE0B8619E600FE00600AD5 /* ChartViewController.xib */,
-				AEBE0B8719E600FE00600AD5 /* LineChart.swift */,
-				AEBE0B8819E600FE00600AD5 /* LineChartData.swift */,
+				C9ADBE4419E6E8D4002A88F7 /* AnimationViewController.swift */,
+				C9ADBE4519E6E8D4002A88F7 /* AnimationViewController.xib */,
+				C9ADBE4619E6E8D4002A88F7 /* UIViewExtension.swift */,
+			);
+			path = AnimationViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE4719E6E8D4002A88F7 /* ChartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE4819E6E8D4002A88F7 /* Bar.swift */,
+				C9ADBE4919E6E8D4002A88F7 /* BarChart.swift */,
+				C9ADBE4A19E6E8D4002A88F7 /* ChartDelegate.swift */,
+				C9ADBE4B19E6E8D4002A88F7 /* ChartLabel.swift */,
+				C9ADBE4C19E6E8D4002A88F7 /* ChartStyle.swift */,
+				C9ADBE4D19E6E8D4002A88F7 /* ChartValue.swift */,
+				C9ADBE4E19E6E8D4002A88F7 /* ChartView.swift */,
+				C9ADBE4F19E6E8D4002A88F7 /* ChartViewController.swift */,
+				C9ADBE5019E6E8D4002A88F7 /* ChartViewController.xib */,
+				C9ADBE5119E6E8D4002A88F7 /* LineChart.swift */,
+				C9ADBE5219E6E8D4002A88F7 /* LineChartData.swift */,
 			);
 			path = ChartViewController;
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		AEBE0B5619E600DF00600AD5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEBE0B5E19E600DF00600AD5 /* ChartLibrary.h in Headers */,
+		C9ADBE5319E6E8D4002A88F7 /* IBeaconViewController */ = {
+			isa = PBXGroup;
+			children = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			path = IBeaconViewController;
+			sourceTree = "<group>";
 		};
-/* End PBXHeadersBuildPhase section */
+		C9ADBE5419E6E8D4002A88F7 /* JavaScriptBridgeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE5519E6E8D4002A88F7 /* JavaScriptBridgeViewController.swift */,
+				C9ADBE5619E6E8D4002A88F7 /* JavaScriptBridgeViewController.xib */,
+				C9ADBE5719E6E8D4002A88F7 /* JSCodeBlock.swift */,
+			);
+			path = JavaScriptBridgeViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE5819E6E8D4002A88F7 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE5919E6E8D4002A88F7 /* ListViewController.swift */,
+				C9ADBE5A19E6E8D4002A88F7 /* ListViewController.xib */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE5B19E6E8D4002A88F7 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE5C19E6E8D4002A88F7 /* LoginViewController.swift */,
+				C9ADBE5D19E6E8D4002A88F7 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE5E19E6E8D4002A88F7 /* MapKitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE5F19E6E8D4002A88F7 /* MapKitViewController.swift */,
+				C9ADBE6019E6E8D4002A88F7 /* MapKitViewController.xib */,
+			);
+			path = MapKitViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE6119E6E8D4002A88F7 /* MessagingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE6219E6E8D4002A88F7 /* MessagingTableViewCell.swift */,
+				C9ADBE6319E6E8D4002A88F7 /* MessagingTableViewCell.xib */,
+				C9ADBE6419E6E8D4002A88F7 /* MessagingViewController.swift */,
+				C9ADBE6519E6E8D4002A88F7 /* MessagingViewController.xib */,
+			);
+			path = MessagingViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE6619E6E8D4002A88F7 /* MFMailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE6719E6E8D4002A88F7 /* MFMailViewController.swift */,
+				C9ADBE6819E6E8D4002A88F7 /* MFMailViewController.xib */,
+			);
+			path = MFMailViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE6919E6E8D4002A88F7 /* MPCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE6A19E6E8D4002A88F7 /* MPCViewController.swift */,
+				C9ADBE6B19E6E8D4002A88F7 /* MPCViewController.xib */,
+			);
+			path = MPCViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE6C19E6E8D4002A88F7 /* PaintFillViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE6D19E6E8D4002A88F7 /* PaintFillViewController.swift */,
+				C9ADBE6E19E6E8D4002A88F7 /* PaintFillViewController.xib */,
+			);
+			path = PaintFillViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE6F19E6E8D4002A88F7 /* PickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE7019E6E8D4002A88F7 /* PickerViewController.swift */,
+				C9ADBE7119E6E8D4002A88F7 /* PickerViewController.xib */,
+			);
+			path = PickerViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE7219E6E8D4002A88F7 /* ProductDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE7319E6E8D4002A88F7 /* ProductDetailViewController.swift */,
+				C9ADBE7419E6E8D4002A88F7 /* ProductDetailViewController.xib */,
+			);
+			path = ProductDetailViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE7519E6E8D4002A88F7 /* ProductsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE7619E6E8D4002A88F7 /* ProductsViewController.swift */,
+				C9ADBE7719E6E8D4002A88F7 /* ProductsViewController.xib */,
+			);
+			path = ProductsViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE7819E6E8D4002A88F7 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE7919E6E8D4002A88F7 /* SettingsViewController.swift */,
+				C9ADBE7A19E6E8D4002A88F7 /* SettingsViewController.xib */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE7B19E6E8D4002A88F7 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE7C19E6E8D4002A88F7 /* SlideMenu.swift */,
+				C9ADBE7D19E6E8D4002A88F7 /* SlideMenuNavigationController.swift */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		C9ADBE7E19E6E8D4002A88F7 /* TimerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE7F19E6E8D4002A88F7 /* TimerViewController.swift */,
+				C9ADBE8019E6E8D4002A88F7 /* TimerViewController.xib */,
+			);
+			path = TimerViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE8119E6E8D4002A88F7 /* UserProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE8219E6E8D4002A88F7 /* UserProfileViewController.swift */,
+				C9ADBE8319E6E8D4002A88F7 /* UserProfileViewController.xib */,
+			);
+			path = UserProfileViewController;
+			sourceTree = "<group>";
+		};
+		C9ADBE8419E6E8D4002A88F7 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C9ADBE8519E6E8D4002A88F7 /* WebViewController.swift */,
+				C9ADBE8619E6E8D4002A88F7 /* WebViewController.xib */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		AEBE0B2E19E600CC00600AD5 /* ChartExample */ = {
@@ -297,8 +497,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				AEBE0B6C19E600DF00600AD5 /* PBXTargetDependency */,
-				AEBE0B7019E600DF00600AD5 /* PBXTargetDependency */,
 			);
 			name = ChartExample;
 			productName = ChartExample;
@@ -323,42 +521,6 @@
 			productReference = AEBE0B4419E600CC00600AD5 /* ChartExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AEBE0B5819E600DF00600AD5 /* ChartLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AEBE0B7119E600DF00600AD5 /* Build configuration list for PBXNativeTarget "ChartLibrary" */;
-			buildPhases = (
-				AEBE0B5419E600DF00600AD5 /* Sources */,
-				AEBE0B5519E600DF00600AD5 /* Frameworks */,
-				AEBE0B5619E600DF00600AD5 /* Headers */,
-				AEBE0B5719E600DF00600AD5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ChartLibrary;
-			productName = ChartLibrary;
-			productReference = AEBE0B5919E600DF00600AD5 /* ChartLibrary.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AEBE0B6219E600DF00600AD5 /* ChartLibraryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AEBE0B7519E600DF00600AD5 /* Build configuration list for PBXNativeTarget "ChartLibraryTests" */;
-			buildPhases = (
-				AEBE0B5F19E600DF00600AD5 /* Sources */,
-				AEBE0B6019E600DF00600AD5 /* Frameworks */,
-				AEBE0B6119E600DF00600AD5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AEBE0B6519E600DF00600AD5 /* PBXTargetDependency */,
-			);
-			name = ChartLibraryTests;
-			productName = ChartLibraryTests;
-			productReference = AEBE0B6319E600DF00600AD5 /* ChartLibraryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -372,13 +534,6 @@
 						CreatedOnToolsVersion = 6.0.1;
 					};
 					AEBE0B4319E600CC00600AD5 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = AEBE0B2E19E600CC00600AD5;
-					};
-					AEBE0B5819E600DF00600AD5 = {
-						CreatedOnToolsVersion = 6.0.1;
-					};
-					AEBE0B6219E600DF00600AD5 = {
 						CreatedOnToolsVersion = 6.0.1;
 						TestTargetID = AEBE0B2E19E600CC00600AD5;
 					};
@@ -399,8 +554,6 @@
 			targets = (
 				AEBE0B2E19E600CC00600AD5 /* ChartExample */,
 				AEBE0B4319E600CC00600AD5 /* ChartExampleTests */,
-				AEBE0B5819E600DF00600AD5 /* ChartLibrary */,
-				AEBE0B6219E600DF00600AD5 /* ChartLibraryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -410,9 +563,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ADBEBB19E6E8D4002A88F7 /* MessagingViewController.xib in Resources */,
+				C9ADBED719E6E8D4002A88F7 /* SettingsViewController.xib in Resources */,
+				C9ADBEAF19E6E8D4002A88F7 /* LoginViewController.xib in Resources */,
+				C9ADBEE719E6E8D4002A88F7 /* WebViewController.xib in Resources */,
+				C9ADBED319E6E8D4002A88F7 /* ProductsViewController.xib in Resources */,
+				C9ADBEC319E6E8D4002A88F7 /* MPCViewController.xib in Resources */,
+				C9ADBEE319E6E8D4002A88F7 /* UserProfileViewController.xib in Resources */,
+				C9ADBECF19E6E8D4002A88F7 /* ProductDetailViewController.xib in Resources */,
+				C9ADBE9D19E6E8D4002A88F7 /* ChartViewController.xib in Resources */,
+				C9ADBEB719E6E8D4002A88F7 /* MessagingTableViewCell.xib in Resources */,
 				AEBE0B3A19E600CC00600AD5 /* Main.storyboard in Resources */,
+				C9ADBEC719E6E8D4002A88F7 /* PaintFillViewController.xib in Resources */,
+				C9ADBEAB19E6E8D4002A88F7 /* ListViewController.xib in Resources */,
 				AEBE0B3F19E600CC00600AD5 /* LaunchScreen.xib in Resources */,
 				AEBE0B3C19E600CC00600AD5 /* Images.xcassets in Resources */,
+				C9ADBEB319E6E8D4002A88F7 /* MapKitViewController.xib in Resources */,
+				C9ADBEA519E6E8D4002A88F7 /* JavaScriptBridgeViewController.xib in Resources */,
+				C9ADBEBF19E6E8D4002A88F7 /* MFMailViewController.xib in Resources */,
+				C9ADBEDF19E6E8D4002A88F7 /* TimerViewController.xib in Resources */,
+				C9ADBECB19E6E8D4002A88F7 /* PickerViewController.xib in Resources */,
+				C9ADBE8919E6E8D4002A88F7 /* AnimationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,22 +591,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEBE0B5719E600DF00600AD5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEBE0BD219E600FE00600AD5 /* ChartViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEBE0B6119E600DF00600AD5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEBE0BD319E600FE00600AD5 /* ChartViewController.xib in Resources */,
+				C9ADBED019E6E8D4002A88F7 /* ProductDetailViewController.xib in Resources */,
+				C9ADBEB419E6E8D4002A88F7 /* MapKitViewController.xib in Resources */,
+				C9ADBEBC19E6E8D4002A88F7 /* MessagingViewController.xib in Resources */,
+				C9ADBEE819E6E8D4002A88F7 /* WebViewController.xib in Resources */,
+				C9ADBEB019E6E8D4002A88F7 /* LoginViewController.xib in Resources */,
+				C9ADBED819E6E8D4002A88F7 /* SettingsViewController.xib in Resources */,
+				C9ADBEB819E6E8D4002A88F7 /* MessagingTableViewCell.xib in Resources */,
+				C9ADBEC819E6E8D4002A88F7 /* PaintFillViewController.xib in Resources */,
+				C9ADBEC019E6E8D4002A88F7 /* MFMailViewController.xib in Resources */,
+				C9ADBEE019E6E8D4002A88F7 /* TimerViewController.xib in Resources */,
+				C9ADBEE419E6E8D4002A88F7 /* UserProfileViewController.xib in Resources */,
+				C9ADBE8A19E6E8D4002A88F7 /* AnimationViewController.xib in Resources */,
+				C9ADBEA619E6E8D4002A88F7 /* JavaScriptBridgeViewController.xib in Resources */,
+				C9ADBEC419E6E8D4002A88F7 /* MPCViewController.xib in Resources */,
+				C9ADBED419E6E8D4002A88F7 /* ProductsViewController.xib in Resources */,
+				C9ADBEAC19E6E8D4002A88F7 /* ListViewController.xib in Resources */,
+				C9ADBECC19E6E8D4002A88F7 /* PickerViewController.xib in Resources */,
+				C9ADBE9E19E6E8D4002A88F7 /* ChartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +619,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ADBEAD19E6E8D4002A88F7 /* LoginViewController.swift in Sources */,
+				C9ADBEE519E6E8D4002A88F7 /* WebViewController.swift in Sources */,
+				C9ADBEA919E6E8D4002A88F7 /* ListViewController.swift in Sources */,
+				C9ADBEB919E6E8D4002A88F7 /* MessagingViewController.swift in Sources */,
+				C9ADBE8D19E6E8D4002A88F7 /* Bar.swift in Sources */,
+				C9ADBE8719E6E8D4002A88F7 /* AnimationViewController.swift in Sources */,
+				C9ADBE9719E6E8D4002A88F7 /* ChartValue.swift in Sources */,
+				C9ADBED119E6E8D4002A88F7 /* ProductsViewController.swift in Sources */,
+				C9ADBE9519E6E8D4002A88F7 /* ChartStyle.swift in Sources */,
+				C9ADBEA119E6E8D4002A88F7 /* LineChartData.swift in Sources */,
+				C9ADBEE119E6E8D4002A88F7 /* UserProfileViewController.swift in Sources */,
+				C9ADBEC119E6E8D4002A88F7 /* MPCViewController.swift in Sources */,
+				C9ADBEA319E6E8D4002A88F7 /* JavaScriptBridgeViewController.swift in Sources */,
+				C9ADBE9119E6E8D4002A88F7 /* ChartDelegate.swift in Sources */,
+				C9ADBEB119E6E8D4002A88F7 /* MapKitViewController.swift in Sources */,
+				C9ADBEDD19E6E8D4002A88F7 /* TimerViewController.swift in Sources */,
+				C9ADBE9F19E6E8D4002A88F7 /* LineChart.swift in Sources */,
+				C9ADBE9B19E6E8D4002A88F7 /* ChartViewController.swift in Sources */,
+				C9ADBEB519E6E8D4002A88F7 /* MessagingTableViewCell.swift in Sources */,
+				C9ADBEC919E6E8D4002A88F7 /* PickerViewController.swift in Sources */,
+				C9ADBED919E6E8D4002A88F7 /* SlideMenu.swift in Sources */,
+				C9ADBEBD19E6E8D4002A88F7 /* MFMailViewController.swift in Sources */,
+				C9ADBECD19E6E8D4002A88F7 /* ProductDetailViewController.swift in Sources */,
 				AEBE0B3719E600CC00600AD5 /* ViewController.swift in Sources */,
+				C9ADBE8B19E6E8D4002A88F7 /* UIViewExtension.swift in Sources */,
+				C9ADBEC519E6E8D4002A88F7 /* PaintFillViewController.swift in Sources */,
+				C9ADBE9919E6E8D4002A88F7 /* ChartView.swift in Sources */,
+				C9ADBED519E6E8D4002A88F7 /* SettingsViewController.swift in Sources */,
+				C9ADBE9319E6E8D4002A88F7 /* ChartLabel.swift in Sources */,
+				C9ADBE8F19E6E8D4002A88F7 /* BarChart.swift in Sources */,
 				AEBE0B3519E600CC00600AD5 /* AppDelegate.swift in Sources */,
+				C9ADBEDB19E6E8D4002A88F7 /* SlideMenuNavigationController.swift in Sources */,
+				C9ADBEA719E6E8D4002A88F7 /* JSCodeBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,42 +659,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ADBE8C19E6E8D4002A88F7 /* UIViewExtension.swift in Sources */,
+				C9ADBEA819E6E8D4002A88F7 /* JSCodeBlock.swift in Sources */,
+				C9ADBE9219E6E8D4002A88F7 /* ChartDelegate.swift in Sources */,
+				C9ADBEA419E6E8D4002A88F7 /* JavaScriptBridgeViewController.swift in Sources */,
+				C9ADBEBE19E6E8D4002A88F7 /* MFMailViewController.swift in Sources */,
+				C9ADBEC619E6E8D4002A88F7 /* PaintFillViewController.swift in Sources */,
+				C9ADBE8E19E6E8D4002A88F7 /* Bar.swift in Sources */,
+				C9ADBE9A19E6E8D4002A88F7 /* ChartView.swift in Sources */,
+				C9ADBE9419E6E8D4002A88F7 /* ChartLabel.swift in Sources */,
+				C9ADBE9819E6E8D4002A88F7 /* ChartValue.swift in Sources */,
+				C9ADBEDE19E6E8D4002A88F7 /* TimerViewController.swift in Sources */,
 				AEBE0B4B19E600CC00600AD5 /* ChartExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEBE0B5419E600DF00600AD5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEBE0BC419E600FE00600AD5 /* BarChart.swift in Sources */,
-				AEBE0BC619E600FE00600AD5 /* ChartDelegate.swift in Sources */,
-				AEBE0BCC19E600FE00600AD5 /* ChartValue.swift in Sources */,
-				AEBE0BD419E600FE00600AD5 /* LineChart.swift in Sources */,
-				AEBE0BC219E600FE00600AD5 /* Bar.swift in Sources */,
-				AEBE0BCE19E600FE00600AD5 /* ChartView.swift in Sources */,
-				AEBE0BC819E600FE00600AD5 /* ChartLabel.swift in Sources */,
-				AEBE0BCA19E600FE00600AD5 /* ChartStyle.swift in Sources */,
-				AEBE0BD619E600FE00600AD5 /* LineChartData.swift in Sources */,
-				AEBE0BD019E600FE00600AD5 /* ChartViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEBE0B5F19E600DF00600AD5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEBE0BC719E600FE00600AD5 /* ChartDelegate.swift in Sources */,
-				AEBE0BC319E600FE00600AD5 /* Bar.swift in Sources */,
-				AEBE0BCF19E600FE00600AD5 /* ChartView.swift in Sources */,
-				AEBE0BC919E600FE00600AD5 /* ChartLabel.swift in Sources */,
-				AEBE0BCD19E600FE00600AD5 /* ChartValue.swift in Sources */,
-				AEBE0B6A19E600DF00600AD5 /* ChartLibraryTests.swift in Sources */,
-				AEBE0BC519E600FE00600AD5 /* BarChart.swift in Sources */,
-				AEBE0BD519E600FE00600AD5 /* LineChart.swift in Sources */,
-				AEBE0BCB19E600FE00600AD5 /* ChartStyle.swift in Sources */,
-				AEBE0BD719E600FE00600AD5 /* LineChartData.swift in Sources */,
-				AEBE0BD119E600FE00600AD5 /* ChartViewController.swift in Sources */,
+				C9ADBE9019E6E8D4002A88F7 /* BarChart.swift in Sources */,
+				C9ADBEA019E6E8D4002A88F7 /* LineChart.swift in Sources */,
+				C9ADBE9619E6E8D4002A88F7 /* ChartStyle.swift in Sources */,
+				C9ADBEE619E6E8D4002A88F7 /* WebViewController.swift in Sources */,
+				C9ADBEB219E6E8D4002A88F7 /* MapKitViewController.swift in Sources */,
+				C9ADBEBA19E6E8D4002A88F7 /* MessagingViewController.swift in Sources */,
+				C9ADBEDC19E6E8D4002A88F7 /* SlideMenuNavigationController.swift in Sources */,
+				C9ADBED219E6E8D4002A88F7 /* ProductsViewController.swift in Sources */,
+				C9ADBEC219E6E8D4002A88F7 /* MPCViewController.swift in Sources */,
+				C9ADBE8819E6E8D4002A88F7 /* AnimationViewController.swift in Sources */,
+				C9ADBECA19E6E8D4002A88F7 /* PickerViewController.swift in Sources */,
+				C9ADBEE219E6E8D4002A88F7 /* UserProfileViewController.swift in Sources */,
+				C9ADBEDA19E6E8D4002A88F7 /* SlideMenu.swift in Sources */,
+				C9ADBEAE19E6E8D4002A88F7 /* LoginViewController.swift in Sources */,
+				C9ADBEB619E6E8D4002A88F7 /* MessagingTableViewCell.swift in Sources */,
+				C9ADBEA219E6E8D4002A88F7 /* LineChartData.swift in Sources */,
+				C9ADBECE19E6E8D4002A88F7 /* ProductDetailViewController.swift in Sources */,
+				C9ADBEAA19E6E8D4002A88F7 /* ListViewController.swift in Sources */,
+				C9ADBE9C19E6E8D4002A88F7 /* ChartViewController.swift in Sources */,
+				C9ADBED619E6E8D4002A88F7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,21 +701,6 @@
 			isa = PBXTargetDependency;
 			target = AEBE0B2E19E600CC00600AD5 /* ChartExample */;
 			targetProxy = AEBE0B4519E600CC00600AD5 /* PBXContainerItemProxy */;
-		};
-		AEBE0B6519E600DF00600AD5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AEBE0B2E19E600CC00600AD5 /* ChartExample */;
-			targetProxy = AEBE0B6419E600DF00600AD5 /* PBXContainerItemProxy */;
-		};
-		AEBE0B6C19E600DF00600AD5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AEBE0B5819E600DF00600AD5 /* ChartLibrary */;
-			targetProxy = AEBE0B6B19E600DF00600AD5 /* PBXContainerItemProxy */;
-		};
-		AEBE0B7019E600DF00600AD5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AEBE0B5819E600DF00600AD5 /* ChartLibrary */;
-			targetProxy = AEBE0B6F19E600DF00600AD5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -672,80 +857,6 @@
 			};
 			name = Release;
 		};
-		AEBE0B7219E600DF00600AD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ChartLibrary/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AEBE0B7319E600DF00600AD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ChartLibrary/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AEBE0B7619E600DF00600AD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ChartLibraryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartExample.app/ChartExample";
-			};
-			name = Debug;
-		};
-		AEBE0B7719E600DF00600AD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ChartLibraryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartExample.app/ChartExample";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -772,24 +883,6 @@
 			buildConfigurations = (
 				AEBE0B5219E600CC00600AD5 /* Debug */,
 				AEBE0B5319E600CC00600AD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AEBE0B7119E600DF00600AD5 /* Build configuration list for PBXNativeTarget "ChartLibrary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AEBE0B7219E600DF00600AD5 /* Debug */,
-				AEBE0B7319E600DF00600AD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AEBE0B7519E600DF00600AD5 /* Build configuration list for PBXNativeTarget "ChartLibraryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AEBE0B7619E600DF00600AD5 /* Debug */,
-				AEBE0B7719E600DF00600AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

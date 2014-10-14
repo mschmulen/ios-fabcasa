@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="imageload_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,8 +16,44 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2d5-5a-EbS">
+                                <rect key="frame" x="16" y="58" width="344" height="310"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwb-yN-WGJ">
+                                <rect key="frame" x="16" y="20" width="35" height="30"/>
+                                <state key="normal" title="Load">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionLoad:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ca8-WU-Sdb"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SBU-WL-FKc">
+                                <rect key="frame" x="59" y="20" width="301" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="301" id="TFU-hQ-vCO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SBU-WL-FKc" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="02j-vK-PFy"/>
+                            <constraint firstItem="2d5-5a-EbS" firstAttribute="top" secondItem="Nwb-yN-WGJ" secondAttribute="bottom" constant="8" symbolic="YES" id="4Ey-db-MpT"/>
+                            <constraint firstItem="2d5-5a-EbS" firstAttribute="trailing" secondItem="SBU-WL-FKc" secondAttribute="trailing" id="Qds-c1-Csf"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="2d5-5a-EbS" secondAttribute="bottom" constant="232" id="W8k-Pm-8rL"/>
+                            <constraint firstItem="SBU-WL-FKc" firstAttribute="leading" secondItem="Nwb-yN-WGJ" secondAttribute="trailing" constant="8" symbolic="YES" id="nRF-9S-JFA"/>
+                            <constraint firstItem="2d5-5a-EbS" firstAttribute="leading" secondItem="Nwb-yN-WGJ" secondAttribute="leading" id="vZr-aF-4Ub"/>
+                            <constraint firstItem="Nwb-yN-WGJ" firstAttribute="top" secondItem="SBU-WL-FKc" secondAttribute="top" id="wE8-uT-eN4"/>
+                            <constraint firstItem="2d5-5a-EbS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="yjl-pn-TDC"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="2d5-5a-EbS" id="KTe-Uv-xSV"/>
+                        <outlet property="textField" destination="SBU-WL-FKc" id="Wqz-fy-1VC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
