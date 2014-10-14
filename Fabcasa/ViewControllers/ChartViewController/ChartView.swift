@@ -10,28 +10,38 @@
 
 import UIKit
 
-@IBDesignable class ChartView: UIView  {
+@IBDesignable public class ChartView: UIView  {
     
-    
-    
-    @IBInspectable var borderColor: UIColor = UIColor.clearColor() {
+    // MARK: - Inspectable
+    @IBInspectable public var borderColor: UIColor = UIColor.clearColor() {
         didSet {
             layer.borderColor = borderColor.CGColor
         }
     }
     
-    @IBInspectable var borderWidth: CGFloat = 0 {
+    @IBInspectable public var borderWidth: CGFloat = 0 {
         didSet {
             layer.borderWidth = borderWidth
         }
     }
     
-    @IBInspectable var cornerRadius: CGFloat = 0 {
+    @IBInspectable public var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = cornerRadius
         }
     }
     
+    // Chart Title
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBInspectable var title: String = "" {
+        didSet {
+            self.titleLabel.text = title
+        }
+    }
+    @IBInspectable var bool: Bool = false
+
+    
+    // MARK: - Initialization
     override public func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -46,6 +56,7 @@ import UIKit
         //}
     }
     
+    /*
     @IBInspectable var integer: Int = 0
     @IBInspectable var float: CGFloat = 0
     @IBInspectable var double: Double = 0
@@ -54,7 +65,7 @@ import UIKit
     @IBInspectable var customFrame: CGRect = CGRectZero
     @IBInspectable var color: UIColor = UIColor.clearColor()
     @IBInspectable var string: String = "We ❤ Swift"
-    @IBInspectable var bool: Bool = false
+    */
     
     //@IBInspectable var borderColor: UIColor = UIColor.clearColor()
     //@IBInspectable var borderWidth: CGFloat = 0
@@ -64,40 +75,11 @@ import UIKit
     let trackLayer = CALayer()
     let lowerThumbLayer = CALayer()
     let upperThumbLayer = CALayer()
+    */
     
     var CurrentChartLabelArray:[String] = ["SEP 1","SEP 2","SEP 3","SEP 4","SEP 5","SEP 6","SEP 7"]
     var CurrentChartDataArray:[CGFloat] = [60.1, 160.1, 126.4, 262.2, 186.2, 127.2, 176.2]
-    */
     
-    /*
-    // Chart Title
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBInspectable var title: String = "" {
-        didSet {
-            self.titleLabel.text = title
-        }
-    }
-    */
-    
-    /*
-    public func liveDebugLog(message: String) {
-        #if !(TARGET_OS_IPHONE)
-            let logPath = "/tmp/XcodeLiveRendering.log"
-            if !NSFileManager.defaultManager().fileExistsAtPath(logPath) {
-                NSFileManager.defaultManager().createFileAtPath(logPath, contents: NSData(), attributes: nil)
-            }
-            
-            var fileHandle = NSFileHandle(forWritingAtPath: logPath)
-            fileHandle.seekToEndOfFile()
-            
-            let date = NSDate()
-            let bundle = NSBundle(forClass: self.dynamicType)
-            let application: AnyObject = bundle.objectForInfoDictionaryKey("CFBundleName")
-            let data = "\(date) \(application) \(message)\n".dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
-            fileHandle.writeData(data)
-        #endif
-    }
-    */
     
     
     /*
@@ -108,8 +90,7 @@ import UIKit
         // Drawing code
     }
     */
-
-    /*
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -121,7 +102,7 @@ import UIKit
         titleLabel.text = "Line Chart"
 
         
-        
+        /*
         var lineChart:LineChart = LineChart(frame: frame )
         //var lineChart:LineChart = LineChart(frame: CGRectMake(0, 30, 320, 200.0))
         lineChart.yLabelFormat = "%1.1f"
@@ -162,9 +143,8 @@ import UIKit
         //layer.addSublayer(lowerThumbLayer)
         
         //upperThumbLayer.backgroundColor = UIColor.greenColor().CGColor
-
+        */
     }
-    */
     
     /*
     // func instantiateWithOwner(ownerOrNil: AnyObject!, options optionsOrNil: NSDictionary!) -> AnyObject[]!

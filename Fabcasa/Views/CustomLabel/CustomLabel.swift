@@ -6,4 +6,9 @@
 //  Copyright (c) 2014 Matthew Schmulen. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class CustomLabel: UILabel
+{
+
+}
