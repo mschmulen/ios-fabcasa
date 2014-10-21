@@ -29,13 +29,15 @@ class ViewController: UIViewController {
     
     func loadImageFromURLBlocking()
     {
+        // MAS TODO
+        
+        /*
         var url = NSURL.URLWithString(textField.text)
         var data = NSData( contentsOfURL: url)
         var image = UIImage( data: data )
-        println( " image size \(image.size)")
+        */
+        //println( " image size \(image.size)")
     }
-    
-
 
 }
 
