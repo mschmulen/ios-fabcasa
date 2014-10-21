@@ -47,7 +47,7 @@ public class DataLoader {
         Logger.instance.print("LoadImageFromURL \(imageURL)")
         var url = NSURL.URLWithString(imageURL)
         var data = NSData( contentsOfURL: url)
-        var image = UIImage( data: data )
+        var image = UIImage( data: data! )
         //println( " image size \(image.size)")
         return image;
     }
@@ -58,7 +58,7 @@ public class DataLoader {
         Logger.instance.print("GetFromURL \(dataURL)")
         
         let session = NSURLSession.sharedSession()
-        let task = session.dataTaskWithURL(NSURL(string: dataURL), completionHandler: {(data, response, error) in
+        let task = session.dataTaskWithURL(NSURL(string: dataURL)!, completionHandler: {(data, response, error) in
             
             //expectation.fulfill()
             

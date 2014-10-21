@@ -72,11 +72,18 @@
 		C9A74A4B19E2F41000E80951 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A74A4819E2F41000E80951 /* ProductsViewController.xib */; };
 		C9A74A4C19E2F41000E80951 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A74A4819E2F41000E80951 /* ProductsViewController.xib */; };
 		C9BD0DEC19DDEA2E00878307 /* FabcasaTestsViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD0DEB19DDEA2E00878307 /* FabcasaTestsViewControllers.swift */; };
+		C9C1808219F6E2AC003F1977 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1808019F6E2AC003F1977 /* ArrayExtension.swift */; };
+		C9C1808319F6E2AC003F1977 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C1808019F6E2AC003F1977 /* ArrayExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE129FF719E586EF00C5A5D7 /* SlideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
 		AE129FF819E586EF00C5A5D7 /* SlideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuNavigationController.swift; sourceTree = "<group>"; };
+		C9114D0019F6D9260042366B /* Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Arrays.playground; sourceTree = "<group>"; };
+		C9114D0119F6D9260042366B /* Iteration.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Iteration.playground; sourceTree = "<group>"; };
+		C9114D0219F6D9260042366B /* Patterns.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Patterns.playground; sourceTree = "<group>"; };
+		C9114D0319F6D9260042366B /* UIKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKit.playground; sourceTree = "<group>"; };
+		C9114D0419F6DC170042366B /* Quartz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Quartz.playground; sourceTree = "<group>"; };
 		C99CC6DC19DCB33D00063DD0 /* Fabcasa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fabcasa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99CC6E019DCB33D00063DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99CC6E119DCB33D00063DD0 /* Fabcasa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fabcasa.h; sourceTree = "<group>"; };
@@ -114,6 +121,7 @@
 		C9A74A4719E2F41000E80951 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		C9A74A4819E2F41000E80951 /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsViewController.xib; sourceTree = "<group>"; };
 		C9BD0DEB19DDEA2E00878307 /* FabcasaTestsViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabcasaTestsViewControllers.swift; sourceTree = "<group>"; };
+		C9C1808019F6E2AC003F1977 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +151,18 @@
 			path = SlideMenu;
 			sourceTree = "<group>";
 		};
+		C9114CFF19F6D9260042366B /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				C9114D0019F6D9260042366B /* Arrays.playground */,
+				C9114D0119F6D9260042366B /* Iteration.playground */,
+				C9114D0219F6D9260042366B /* Patterns.playground */,
+				C9114D0319F6D9260042366B /* UIKit.playground */,
+				C9114D0419F6DC170042366B /* Quartz.playground */,
+			);
+			path = Playgrounds;
+			sourceTree = SOURCE_ROOT;
+		};
 		C99CC6D219DCB33D00063DD0 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +184,7 @@
 		C99CC6DE19DCB33D00063DD0 /* Fabcasa */ = {
 			isa = PBXGroup;
 			children = (
+				C9114CFF19F6D9260042366B /* Playgrounds */,
 				C99CC7F019DDE51400063DD0 /* ViewControllers */,
 				C99CC7EC19DDE50400063DD0 /* Extensions */,
 				C99CC7DF19DDE4F600063DD0 /* DataStructures */,
@@ -215,6 +236,7 @@
 		C99CC7EC19DDE50400063DD0 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C9C1808019F6E2AC003F1977 /* ArrayExtension.swift */,
 				C99CC7ED19DDE50400063DD0 /* DateExtension.swift */,
 			);
 			path = Extensions;
@@ -482,6 +504,7 @@
 				C99CC80A19DDE51400063DD0 /* AnimationViewController.swift in Sources */,
 				C99CC80E19DDE51400063DD0 /* UIViewExtension.swift in Sources */,
 				C99CC82819DDE51400063DD0 /* TimerViewController.swift in Sources */,
+				C9C1808219F6E2AC003F1977 /* ArrayExtension.swift in Sources */,
 				C99CC81419DDE51400063DD0 /* MessagingTableViewCell.swift in Sources */,
 				C9A74A4219E2F40300E80951 /* ProductDetailViewController.swift in Sources */,
 				C99CC7E819DDE4F600063DD0 /* Queue.swift in Sources */,
@@ -496,6 +519,7 @@
 				C9BD0DEC19DDEA2E00878307 /* FabcasaTestsViewControllers.swift in Sources */,
 				C99CC7E519DDE4F600063DD0 /* Graph.swift in Sources */,
 				AE129FFC19E586EF00C5A5D7 /* SlideMenuNavigationController.swift in Sources */,
+				C9C1808319F6E2AC003F1977 /* ArrayExtension.swift in Sources */,
 				C99CC82119DDE51400063DD0 /* MPCViewController.swift in Sources */,
 				C99CC7EF19DDE50400063DD0 /* DateExtension.swift in Sources */,
 				C9A74A3C19DF648D00E80951 /* LoginViewController.swift in Sources */,

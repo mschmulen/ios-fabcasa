@@ -153,7 +153,7 @@ class MPCViewController: UIViewController , MCBrowserViewControllerDelegate , MC
                 
                 var msg = NSString(data: data, encoding: NSUTF8StringEncoding)
                 
-                self.updateChat(msg, fromPeer: peerID)
+                self.updateChat(msg!, fromPeer: peerID)
             }
     }
     

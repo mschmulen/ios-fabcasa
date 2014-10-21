@@ -100,7 +100,6 @@ import UIKit
         titleLabel.font = UIFont(name: "Helvetica Neue", size:23.0)
         titleLabel.textAlignment = NSTextAlignment.Center
         titleLabel.text = "Line Chart"
-
         
         /*
         var lineChart:LineChart = LineChart(frame: frame )
