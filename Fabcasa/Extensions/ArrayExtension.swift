@@ -25,7 +25,7 @@ extension Array {
         - https://gist.github.com/Eiam8821/07a7372667879172e9df
     
     */
-    public func takeWhile(f: Element -> Bool ) -> [Element]
+    func takeWhile(f: Element -> Bool ) -> [Element]
     {
         var returnArray: [Element] = []
         for element in self {

@@ -1,11 +1,30 @@
 Fabcasa iOS
----
+===
 
 General Swift madness and learning :) 
 
 
-Test
----
+#Examples
+
+##Swift Crash-swift
+Because you dont really understand a language until you understand how to crash it :)
+[/Examples/Crash-swift](/Examples/Crash-swift)
+
+##Swift MultipeerConnectivity-swift
+Simple chat app using Multipeer Connectivity Mesh networking
+[/Examples/MultipeerConnectivity-swift](Examples/MultipeerConnectivity-swift)
+
+##Swift imageload-swift
+Swift simple Image loading
+[/Examples/imageload-swift](Examples/imageload-swift)
+
+
+##Swift messaging-swift
+Simple Message Chat UIX in Swift
+[/Examples/messaging-swift](Examples/messaging-swift)
+
+
+#Test
 
 
 ###Specific test class

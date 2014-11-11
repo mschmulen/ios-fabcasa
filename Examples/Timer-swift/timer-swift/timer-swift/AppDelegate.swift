@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  ExampleTemplate
+//  timer-swift
 //
-//  Created by Matthew Schmulen on 10/1/14.
-//  Copyright (c) 2014 Matthew Schmulen. All rights reserved.
+//  Created by Matthew Schmulen on 11/9/14.
+//  Copyright (c) 2014 Matt. All rights reserved.
 //
 
 import UIKit
@@ -12,15 +12,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    
+
+
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-        window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window!.backgroundColor = UIColor.redColor()
-        //window!.rootViewController = ViewController()
-        window!.rootViewController = ViewController(nibName: "ViewController", bundle: nil)
-        window!.makeKeyAndVisible()
-        
+        // Override point for customization after application launch.
         return true
     }
 

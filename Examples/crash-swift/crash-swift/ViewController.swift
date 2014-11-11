@@ -9,12 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    var crashList:[(String,String)] = [
+        
+        (
+            "CrashA",
+            "var foo : AnyObject? = nil \n var bar : AnyObject = foo! println( (bar)) "
+        ),
+        (
+            "CrashB",
+            "var foo : AnyObject? = nil \n var bar : AnyObject = foo! println( (bar)) "
+        ),
+        (
+            "CrashC",
+            "var foo : AnyObject? = nil \n var bar : AnyObject = foo! println( (bar)) "
+        ),
+    ]
 
+    @IBOutlet weak var pickerView: UIPickerView!
+    @IBOutlet weak var textView: UITextView!
+    @IBAction func actionRun(sender: AnyObject) {
+        
+        crashA()
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        crashA()
+            
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,15 +49,8 @@ class ViewController: UIViewController {
     
     func crashA()
     {
-        //var foo : AnyObject? = nil
-        var foo: String = "nil"
-        
-        println("yack \(foo)" )
-        
-        
-        //var bar : AnyObject = foo!
-        var bar : AnyObject = foo
-        
+        var foo : AnyObject? = nil
+        var bar : AnyObject = foo!
         println(" \(bar)" )
     }
     

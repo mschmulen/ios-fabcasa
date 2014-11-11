@@ -18,6 +18,7 @@ class MFMailViewController: UIViewController {
         })
         
     }
+    
     @IBAction func actionCompose(sender: AnyObject) {
         println("compose")
         

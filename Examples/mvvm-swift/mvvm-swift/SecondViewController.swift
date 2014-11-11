@@ -78,12 +78,12 @@ class SecondViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(textCellId) as UITableViewCell //as TextInputTableViewCell
         
-        if let quoteField = QuoteField.fromRaw(indexPath.row) {
+        if let quoteField = QuoteField(rawValue: indexPath.row) {
             
             switch quoteField {
             case .Content:
                 println("content")
-                cell.textLabel?.text = "yack"
+                cell.textLabel.text = "yack"
                 /*
                 cell.configure(text: quoteViewModel.quoteContent,
                     placeholder: quoteViewModel.quoteContentPlaceholder,
@@ -95,7 +95,7 @@ class SecondViewController: UITableViewController {
                 */
             case .Scene:
                 println("scene")
-                cell.textLabel?.text = "scene"
+                cell.textLabel.text = "scene"
                 /*
                 cell.configure(text: quoteViewModel.quoteScene,
                     placeholder: quoteViewModel.quoteScenePlaceholder,

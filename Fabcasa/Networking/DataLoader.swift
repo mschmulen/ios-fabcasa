@@ -40,7 +40,7 @@ public class DataLoader {
     
     // ----------------------------------------------------------
     // ----------------------------------------------------------
-    
+    /*
     //this is blocking :(
     func LoadImageFromURL(imageURL:String) -> UIImage
     {
@@ -50,8 +50,9 @@ public class DataLoader {
         var image = UIImage( data: data! )
         //println( " image size \(image.size)")
         return image;
+
     }
-    
+    */
     
     func GetFromURL( dataURL:String)
     {

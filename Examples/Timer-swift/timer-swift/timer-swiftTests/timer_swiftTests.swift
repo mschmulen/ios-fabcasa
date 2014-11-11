@@ -1,15 +1,15 @@
 //
-//  ExampleTemplateTests.swift
-//  ExampleTemplateTests
+//  timer_swiftTests.swift
+//  timer-swiftTests
 //
-//  Created by Matthew Schmulen on 10/1/14.
-//  Copyright (c) 2014 Matthew Schmulen. All rights reserved.
+//  Created by Matthew Schmulen on 11/9/14.
+//  Copyright (c) 2014 Matt. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class ExampleTemplateTests: XCTestCase {
+class timer_swiftTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

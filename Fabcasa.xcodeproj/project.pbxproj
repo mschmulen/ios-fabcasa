@@ -84,6 +84,7 @@
 		C9114D0219F6D9260042366B /* Patterns.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Patterns.playground; sourceTree = "<group>"; };
 		C9114D0319F6D9260042366B /* UIKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UIKit.playground; sourceTree = "<group>"; };
 		C9114D0419F6DC170042366B /* Quartz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Quartz.playground; sourceTree = "<group>"; };
+		C9699B5A1A0931680028CA99 /* Strings.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Strings.playground; sourceTree = "<group>"; };
 		C99CC6DC19DCB33D00063DD0 /* Fabcasa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fabcasa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99CC6E019DCB33D00063DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99CC6E119DCB33D00063DD0 /* Fabcasa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fabcasa.h; sourceTree = "<group>"; };
@@ -154,6 +155,7 @@
 		C9114CFF19F6D9260042366B /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				C9699B5A1A0931680028CA99 /* Strings.playground */,
 				C9114D0019F6D9260042366B /* Arrays.playground */,
 				C9114D0119F6D9260042366B /* Iteration.playground */,
 				C9114D0219F6D9260042366B /* Patterns.playground */,
